@@ -22,22 +22,37 @@ $results = [];
 if ($version === 'v2') {
     $scraperInstance = Scraper::getInstance();
     
-    // 全24会場をループして個別に取得を試みる
-    // こうすることで、特定の会場だけが失敗しても他を確実に拾えます
-    for ($i = 1; $i <= 24; $i++) {
-        // 重要：場コードを 03, 07 のように2桁に固定してリクエスト
-        $stadiumId = sprintf('%02d', $i);
+    // --- 【追加】今日開催されている会場IDを取得する ---
+    $year = $date->format('Y');
+    $ymd  = $date->format('Ymd');
+    $programUrl = "https://boatraceopenapi.github.io/programs/v2/{$year}/{$ymd}.json";
+    $programData = json_decode(@file_get_contents($programUrl), true);
+    
+    // 開催会場IDを重複なく抽出
+    $activeStadiums = [];
+    if (!empty($programData['programs'])) {
+        foreach ($programData['programs'] as $p) {
+            $activeStadiums[] = (int)$p['race_stadium_number'];
+        }
+        $activeStadiums = array_unique($activeStadiums); // 重複削除
+    }
+
+    // 会場が見つからない場合は予備で1〜24回すか、あるいは終了
+    if (empty($activeStadiums)) {
+        // 万が一スケジュールが取れない時のための保険（全会場回す）
+        $activeStadiums = range(1, 24);
+    }
+
+    // 全24会場ではなく、開催されている会場だけをループ
+    foreach ($activeStadiums as $id) {
+        $stadiumId = sprintf('%02d', $id);
         
         try {
-            // 個別会場の結果を取得（ライブラリの仕様に合わせた呼び出し）
             $stadiumResults = $scraperInstance->scrapeResults($date, $stadiumId);
-            
             if (!empty($stadiumResults)) {
-                // 配列を結合
                 $results = array_merge($results, $stadiumResults);
             }
         } catch (\Exception $e) {
-            // 特定の会場でエラーが出てもスキップして次へ
             continue;
         }
     }
