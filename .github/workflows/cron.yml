@@ -58,7 +58,7 @@ jobs:
           if [ -n "$FILES" ]; then
             git add $FILES
             git commit -m "chore: deploy JSON files to docs/v2 " || true
-            git pull --rebase --autostash
+            git pull --rebase --autostash -X theirs
             git push origin HEAD
           else
             echo "No JSON changes in docs/v2 to commit."
