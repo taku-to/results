@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: cron-deploy-v2
-  cancel-in-progress: false # trueからfalseに変えることで、途中で殺されるのを防ぎます
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -27,13 +27,10 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Rebaseを成功させるために全履歴を取得
+          fetch-depth: 0
 
       - name: Install dependencies
-        run: |
-          # 毎回remove/requireするのではなく、composer.lockに従ってインストール
-          # (もしローカルでv5.0をrequire済みであれば、これだけで済みます)
-          composer install --prefer-dist --no-interaction --no-progress
+        run: composer install --prefer-dist --no-interaction --no-progress
 
       - name: Scrape Data (v2)
         run: php scraper.php v2
@@ -44,19 +41,15 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # フォルダが存在しない場合に備えて作成
-          mkdir -p docs/v2
-          
-          # JSONファイルの変更をステージング
-          git add docs/v2/*.json || true
-          
           # 変更がある場合のみコミットとプッシュを行う
+          git add docs/v2/
+          
           if ! git diff --cached --exit-code --quiet; then
             git commit -m "chore: deploy JSON files to docs/v2"
             
-            # 5分おきの実行による競合を防ぐため、最新を取り込んでからプッシュ
-            git pull --rebase origin main -X theirs
-            git push origin HEAD:main
+            # デフォルトブランチが gh-pages なのでここを修正
+            git pull --rebase origin gh-pages -X theirs
+            git push origin HEAD:gh-pages
           else
             echo "No JSON changes to commit."
           fi
