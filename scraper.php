@@ -71,7 +71,16 @@ if (empty($targetStadiums)) {
 
 // 4. スクレイピングとマージ（合体）処理
 $scraperInstance = Scraper::getInstance();
-$mergedResults = $existingResults; // 既存データをベースにする
+
+// 既存データを「会場ID_レース番号」をキーにした連想配列に一旦組み替える
+$tempMaster = [];
+foreach ($existingResults as $item) {
+    $r = isset($item['race_stadium_number']) ? $item : reset($item);
+    if ($r && isset($r['race_stadium_number'], $r['race_number'])) {
+        $key = (int)$r['race_stadium_number'] . '_' . (int)$r['race_number'];
+        $tempMaster[$key] = $item;
+    }
+}
 
 foreach ($targetStadiums as $id) {
     $stadiumId = sprintf('%02d', $id);
@@ -80,34 +89,22 @@ foreach ($targetStadiums as $id) {
         if (empty($stadiumResults)) continue;
 
         foreach ($stadiumResults as $newRaceData) {
-            // $newRaceData の中身（連想配列なら最初の要素、直接ならそのまま）
             $newRace = isset($newRaceData['race_number']) ? $newRaceData : reset($newRaceData);
             if (!$newRace) continue;
 
-            $newRn = (int)$newRace['race_number'];
-            $foundIdx = -1;
-
-            // 既存データ内に同じ「会場ID・レース番号」があるか探す
-            foreach ($mergedResults as $idx => $oldRaceData) {
-                $oldRace = isset($oldRaceData['race_number']) ? $oldRaceData : reset($oldRaceData);
-                if ((int)$oldRace['race_stadium_number'] === $id && (int)$oldRace['race_number'] === $newRn) {
-                    $foundIdx = $idx;
-                    break;
-                }
-            }
-
-            if ($foundIdx !== -1) {
-                // すでにあれば「最新」で上書き
-                $mergedResults[$foundIdx] = $newRaceData;
-            } else {
-                // なければ新規追加
-                $mergedResults[] = $newRaceData;
-            }
+            // 会場IDとレース番号でユニークなキーを作成
+            $key = (int)$id . '_' . (int)$newRace['race_number'];
+            
+            // 同じキーがあれば自動的に上書き、なければ新規追加される
+            $tempMaster[$key] = $newRaceData;
         }
     } catch (\Exception $e) {
         continue;
     }
 }
+
+// 最後に連想配列のキーを捨てて、保存用のリスト形式に戻す
+$mergedResults = array_values($tempMaster);
 
 // 5. 保存処理
 if (!empty($mergedResults)) {
