@@ -2,19 +2,19 @@ name: cron
 
 on:
   schedule:
-    - cron: '2/5 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 concurrency:
   group: cron-deploy-v2
-  cancel-in-progress: false
+  cancel-in-progress: true # 前のジョブが終わっていなければキャンセルして最新を優先
 
 permissions:
   contents: write
 
 jobs:
   deploy-v2:
-    name: Deploy scraper ^5.0
+    name: Deploy scraper
     runs-on: ubuntu-24.04
 
     steps:
@@ -22,23 +22,18 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.4'
+          extensions: mbstring, xml, json
 
       - name: Checkout Code
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Rebaseを成功させるために全履歴を取得
 
-      - name: Install base dependencies (without scraper)
+      - name: Install dependencies
         run: |
-          composer remove bvp/scraper --no-update || true
-          composer install --no-interaction --no-progress
-
-      - name: Require scraper version ^5.0
-        run: composer require bvp/scraper:^5.0 --no-update
-
-      - name: Update lock file for scraper
-        run: composer update bvp/scraper --with-dependencies
-
-      - name: Final install
-        run: composer install --prefer-dist --no-interaction --no-progress
+          # 毎回remove/requireするのではなく、composer.lockに従ってインストール
+          # (もしローカルでv5.0をrequire済みであれば、これだけで済みます)
+          composer install --prefer-dist --no-interaction --no-progress
 
       - name: Scrape Data (v2)
         run: php scraper.php v2
@@ -48,20 +43,22 @@ jobs:
           set -e
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          FILES=$(
-            {
-              git ls-files -m -- 'docs/v2' | grep '\.json$' || true
-              git diff --cached --name-only --diff-filter=AM -- 'docs/v2' | grep '\.json$' || true
-              git ls-files --others --exclude-standard -- 'docs/v2' | grep '\.json$' || true
-            } | sort -u
-          )
-          if [ -n "$FILES" ]; then
-            git add $FILES
-            git commit -m "chore: deploy JSON files to docs/v2 " || true
-            git pull --rebase --autostash -X theirs
-            git push origin HEAD
+          
+          # フォルダが存在しない場合に備えて作成
+          mkdir -p docs/v2
+          
+          # JSONファイルの変更をステージング
+          git add docs/v2/*.json || true
+          
+          # 変更がある場合のみコミットとプッシュを行う
+          if ! git diff --cached --exit-code --quiet; then
+            git commit -m "chore: deploy JSON files to docs/v2"
+            
+            # 5分おきの実行による競合を防ぐため、最新を取り込んでからプッシュ
+            git pull --rebase origin main -X theirs
+            git push origin HEAD:main
           else
-            echo "No JSON changes in docs/v2 to commit."
+            echo "No JSON changes to commit."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
