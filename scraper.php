@@ -81,3 +81,4 @@ if (!empty($mergedResults)) {
     $saver = new ResultSaver();
     $saver->save($mergedResults, "docs/{$version}/" . $year . '/' . $ymd . '.json');
     $saver->save($mergedResults, "docs/{$version}/today.json");
+}
