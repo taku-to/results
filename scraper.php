@@ -43,6 +43,7 @@ if ($currentRaw) {
         if (isset($item['race_stadium_number'])) {
             $existingResults[] = $item;
         } elseif (is_array($item)) {
+            // "1":{...} のような形式もバラして追加
             foreach ($item as $r) { $existingResults[] = $r; }
         }
     }
@@ -52,9 +53,10 @@ if ($currentRaw) {
 $completedStadiums = [];
 $stadiumCount = [];
 foreach ($existingResults as $item) {
-    // 3連単(trifecta)があるレースをカウント
-    if (!empty($item['payouts']['trifecta'])) {
-        $sid = (int)$item['race_stadium_number'];
+    // 構造の深い部分までチェックしてデータを特定
+    $r = isset($item['race_stadium_number']) ? $item : (is_array($item) ? reset($item) : null);
+    if ($r && !empty($r['payouts']['trifecta'])) {
+        $sid = (int)$r['race_stadium_number'];
         $stadiumCount[$sid] = ($stadiumCount[$sid] ?? 0) + 1;
     }
 }
@@ -72,13 +74,18 @@ if (empty($targetStadiums)) {
 // 4. スクレイピングとマージ（合体）処理
 $scraperInstance = Scraper::getInstance();
 
-// 既存データを「会場ID_レース番号」をキーにした連想配列に一旦組み替える
+// 既存データを「会場ID_レース番号」をキーにした連想配列に組み替える
 $tempMaster = [];
 foreach ($existingResults as $item) {
-    $r = isset($item['race_stadium_number']) ? $item : reset($item);
-    if ($r && isset($r['race_stadium_number'], $r['race_number'])) {
-        $key = (int)$r['race_stadium_number'] . '_' . (int)$r['race_number'];
-        $tempMaster[$key] = $item;
+    // ネストされた構造も確実に捉える
+    $target = isset($item['race_stadium_number']) ? $item : (is_array($item) ? reset($item) : null);
+    
+    if ($target && isset($target['race_stadium_number'], $target['race_number'])) {
+        // 数値にキャストして一意のキーを作成。これで物理的に重複を防ぐ
+        $sId = (int)$target['race_stadium_number'];
+        $rNo = (int)$target['race_number'];
+        $key = "{$sId}_{$rNo}";
+        $tempMaster[$key] = $item; 
     }
 }
 
@@ -89,27 +96,29 @@ foreach ($targetStadiums as $id) {
         if (empty($stadiumResults)) continue;
 
         foreach ($stadiumResults as $newRaceData) {
-            $newRace = isset($newRaceData['race_number']) ? $newRaceData : reset($newRaceData);
-            if (!$newRace) continue;
-
-            // 会場IDとレース番号でユニークなキーを作成
-            $key = (int)$id . '_' . (int)$newRace['race_number'];
+            // 新規データからも中身を取得
+            $newTarget = isset($newRaceData['race_number']) ? $newRaceData : (is_array($newRaceData) ? reset($newRaceData) : null);
             
-            // 同じキーがあれば自動的に上書き、なければ新規追加される
-            $tempMaster[$key] = $newRaceData;
+            if ($newTarget && isset($newTarget['race_number'])) {
+                $sId = (int)$id;
+                $rNo = (int)$newTarget['race_number'];
+                $key = "{$sId}_{$rNo}";
+                
+                // 同じキーがあれば「強制上書き」、なければ追加
+                $tempMaster[$key] = $newRaceData;
+            }
         }
     } catch (\Exception $e) {
         continue;
     }
 }
 
-// 最後に連想配列のキーを捨てて、保存用のリスト形式に戻す
+// 連想配列のキーを破棄して、保存用のリスト形式に戻す
 $mergedResults = array_values($tempMaster);
 
 // 5. 保存処理
 if (!empty($mergedResults)) {
     $saver = new ResultSaver();
-    // 日付別ディレクトリと today.json の両方を更新
     $saver->save($mergedResults, "docs/{$version}/" . $year . '/' . $ymd . '.json');
     $saver->save($mergedResults, "docs/{$version}/today.json");
 }
