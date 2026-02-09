@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: cron-deploy-v2
-  cancel-in-progress: true # 前のジョブが終わっていなければキャンセルして最新を優先
+  cancel-in-progress: false # trueからfalseに変えることで、途中で殺されるのを防ぎます
 
 permissions:
   contents: write
