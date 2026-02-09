@@ -1,9 +1,6 @@
 <?php
-
 declare(strict_types=1);
-
 require __DIR__ . '/vendor/autoload.php';
-
 use BVP\Scraper\Scraper;
 use Carbon\CarbonImmutable as Carbon;
 use BOA\Results\ResultSaver;
@@ -13,7 +10,7 @@ $date = Carbon::today('Asia/Tokyo');
 $year = $date->format('Y');
 $ymd  = $date->format('Ymd');
 
-// 1. 今日の会場番号を取得（APIからはIDだけを利用）
+// 1. 今日の会場情報を取得
 $programUrl = "https://boatraceopenapi.github.io/programs/v2/{$year}/{$ymd}.json";
 $programData = json_decode(@file_get_contents($programUrl), true);
 $activeStadiums = [];
@@ -22,9 +19,10 @@ if (!empty($programData['programs'])) {
         $activeStadiums[] = (int)$p['race_stadium_number'];
     }
 }
-if (empty($activeStadiums)) $activeStadiums = range(1, 24);
+// 江戸川(03)などがAPIにない場合でも、24会場すべてをチェック対象にする（念のため）
+$activeStadiums = array_unique(array_merge($activeStadiums, range(1, 24)));
 
-// 2. 既存の「確定済み」データをURLから取得
+// 2. 既存データをGitHubから取得し、重複を排除して展開
 $tempMaster = [];
 $remoteUrl = "https://taku-to.github.io/results/v2/{$year}/{$ymd}.json";
 $currentRaw = @file_get_contents($remoteUrl);
@@ -34,56 +32,59 @@ if ($currentRaw) {
     $rawList = $currentData['results'] ?? $currentData;
     
     foreach ($rawList as $entry) {
-        // どんな階層構造で保存されていても、中身だけを抽出する
-        $data = isset($entry['race_number']) ? $entry : (is_array($entry) ? reset($entry) : null);
+        // {"1": {...}} のような入れ子を剥いて、中身を取り出す
+        $data = null;
+        if (isset($entry['race_stadium_number'])) {
+            $data = $entry;
+        } elseif (is_array($entry)) {
+            $inner = reset($entry);
+            if (isset($inner['race_stadium_number'])) $data = $inner;
+        }
         
-        if ($data && isset($data['race_stadium_number'], $data['race_number'])) {
+        if ($data) {
+            // 会場_レース をキーにして格納。これで重複が物理的に消える
             $key = (int)$data['race_stadium_number'] . '_' . (int)$data['race_number'];
-            $tempMaster[$key] = $data; // フラットな形式で保存
+            $tempMaster[$key] = $data;
         }
     }
 }
 
-// 3. 完了済み判定（三連単の配当[payout]が本当に入っているかチェック）
+// 3. 完了済み判定（三連単の配当が「本当に入っているか」を厳密にチェック）
 $completedStadiums = [];
 foreach ($activeStadiums as $sid) {
-    $foundRaces = 0;
+    $finishedCount = 0;
     for ($r = 1; $r <= 12; $r++) {
-        $raceData = $tempMaster["{$sid}_{$r}"] ?? null;
-        // trifectaの中身が空（[]）でないことを厳密に確認
-        if (!empty($raceData['payouts']['trifecta'])) {
-            $foundRaces++;
+        $race = $tempMaster["{$sid}_{$r}"] ?? null;
+        if (isset($race['payouts']['trifecta']) && count($race['payouts']['trifecta']) > 0) {
+            $finishedCount++;
         }
     }
-    if ($foundRaces >= 12) {
-        $completedStadiums[] = $sid;
-    }
+    if ($finishedCount >= 12) $completedStadiums[] = $sid;
 }
 
 $targetStadiums = array_diff($activeStadiums, $completedStadiums);
 if (empty($targetStadiums)) exit;
 
-// 4. スクレイピング（確定結果を取得して上書き）
+// 4. スクレイピング実行
 $scraperInstance = Scraper::getInstance();
 foreach ($targetStadiums as $id) {
     $stadiumId = sprintf('%02d', $id);
     try {
-        // ここで公式サイトから最新の結果（確定済み）を取得
         $stadiumResults = $scraperInstance->scrapeResults($date, $stadiumId);
         if (empty($stadiumResults)) continue;
 
         foreach ($stadiumResults as $newEntry) {
-            $newData = isset($newEntry['race_number']) ? $newEntry : (is_array($newEntry) ? reset($newEntry) : null);
+            $newData = isset($newEntry['race_number']) ? $newEntry : reset($newEntry);
             if ($newData && isset($newData['race_number'])) {
                 $key = (int)$id . '_' . (int)$newData['race_number'];
-                // 既存の「空データ」を「確定結果データ」で強制上書き
+                // 既存の空データを「確定結果」で上書き
                 $tempMaster[$key] = $newData;
             }
         }
     } catch (\Exception $e) { continue; }
 }
 
-// 5. 並べ替え
+// 5. 保存用に配列を整理・ソート
 $mergedResults = array_values($tempMaster);
 usort($mergedResults, function($a, $b) {
     $cmp = (int)$a['race_stadium_number'] <=> (int)$b['race_stadium_number'];
@@ -93,6 +94,7 @@ usort($mergedResults, function($a, $b) {
 // 6. 保存
 if (!empty($mergedResults)) {
     $saver = new ResultSaver();
+    // 構造をフラットにするため直接 $mergedResults を渡す
     $saver->save($mergedResults, "docs/{$version}/" . $year . '/' . $ymd . '.json');
     $saver->save($mergedResults, "docs/{$version}/today.json");
 }
