@@ -8,12 +8,12 @@ use BOA\Results\ResultSaver;
 $version = $argv[1] ?? 'v2';
 $date = Carbon::today('Asia/Tokyo');
 $year = $date->format('Y');
-$ymd  = $date->format('Ymd');
+$ymd = $date->format('Ymd');
 
-// 1. 今日の会場情報を取得（APIに頼らず全24会場をチェック対象にする）
-$activeStadiums = range(1, 24); 
+// 1. 今日の会場情報を取得
+$activeStadiums = range(1, 24);
 
-// 2. 既存データをGitHubから取得し、重複を排除して展開
+// 2. 既存データをGitHubから取得
 $tempMaster = [];
 $remoteUrl = "https://taku-to.github.io/results/v2/{$year}/{$ymd}.json";
 $currentRaw = @file_get_contents($remoteUrl);
@@ -22,12 +22,13 @@ if ($currentRaw) {
     $currentData = json_decode($currentRaw, true);
     $rawList = $currentData['results'] ?? $currentData;
     
-    foreach ($rawList as $entry) {
-        $data = isset($entry['race_stadium_number']) ? $entry : (is_array($entry) ? reset($entry) : null);
-        if ($data) {
-            // 文字列・数値のゆらぎを排除するため、(int)で統一してキーを作成
-            $key = (int)$data['race_stadium_number'] . '_' . (int)$data['race_number'];
-            $tempMaster[$key] = $data;
+    if (is_array($rawList)) {
+        foreach ($rawList as $entry) {
+            $data = isset($entry['race_stadium_number']) ? $entry : (is_array($entry) ? reset($entry) : null);
+            if ($data && isset($data['race_stadium_number'], $data['race_number'])) {
+                $key = (int)$data['race_stadium_number'] . '_' . (int)$data['race_number'];
+                $tempMaster[$key] = $data;
+            }
         }
     }
 }
@@ -38,7 +39,6 @@ foreach ($activeStadiums as $sid) {
     $finishedCount = 0;
     for ($r = 1; $r <= 12; $r++) {
         $race = $tempMaster["{$sid}_{$r}"] ?? null;
-        // 配当が入っているものだけを「完了」とみなす
         if (isset($race['payouts']['trifecta']) && count($race['payouts']['trifecta']) > 0) {
             $finishedCount++;
         }
@@ -58,17 +58,16 @@ foreach ($targetStadiums as $id) {
         if (empty($stadiumResults)) continue;
 
         foreach ($stadiumResults as $newEntry) {
-            $newData = isset($newEntry['race_number']) ? $newEntry : reset($newEntry);
+            $newData = isset($newEntry['race_number']) ? $newEntry : (is_array($newEntry) ? reset($newEntry) : null);
             if ($newData && isset($newData['race_number'])) {
                 $key = (int)$id . '_' . (int)$newData['race_number'];
-                // ここで上書き保存することで重複を防止
                 $tempMaster[$key] = $newData;
             }
         }
     } catch (\Exception $e) { continue; }
 }
 
-// 5. 保存用に配列を整理・ソート
+// 5. 並べ替え
 $mergedResults = array_values($tempMaster);
 usort($mergedResults, function($a, $b) {
     if ((int)$a['race_stadium_number'] === (int)$b['race_stadium_number']) {
@@ -80,7 +79,5 @@ usort($mergedResults, function($a, $b) {
 // 6. 保存
 if (!empty($mergedResults)) {
     $saver = new ResultSaver();
-    // 常にフラットな配列構造で保存する
     $saver->save($mergedResults, "docs/{$version}/" . $year . '/' . $ymd . '.json');
     $saver->save($mergedResults, "docs/{$version}/today.json");
-}
