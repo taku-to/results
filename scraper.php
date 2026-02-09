@@ -46,3 +46,15 @@ foreach ($results as $r) {
             "race"   => $rNum,
             "result" => str_replace(' ', '-', $trifecta['combination']), // "3 1 5" -> "3-1-5"
             "payout" => (int)$trifecta['payout']
+        ];
+    }
+}
+
+// 3. 保存処理
+$saver = new ResultSaver();
+$year = $date->format('Y');
+$ymd  = $date->format('Ymd');
+
+// 軽量化されたデータを保存
+$saver->save($formattedResults, "docs/{$version}/{$year}/{$ymd}.json");
+$saver->save($formattedResults, "docs/{$version}/today.json");
