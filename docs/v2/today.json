@@ -425,6 +425,24 @@
             "race": 12,
             "result": "1-2-5",
             "payout": 2020
+        },
+        {
+            "venue": "びわこ",
+            "race": 8,
+            "result": "1-3-2",
+            "payout": 1140
+        },
+        {
+            "venue": "宮島",
+            "race": 10,
+            "result": "1-3-5",
+            "payout": 750
+        },
+        {
+            "venue": "芦屋",
+            "race": 12,
+            "result": "5-2-4",
+            "payout": 7470
         }
     ]
 }
