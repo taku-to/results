@@ -413,6 +413,18 @@
             "race": 9,
             "result": "1-3-2",
             "payout": 1050
+        },
+        {
+            "venue": "尼崎",
+            "race": 8,
+            "result": "1-3-2",
+            "payout": 1420
+        },
+        {
+            "venue": "徳山",
+            "race": 12,
+            "result": "1-2-5",
+            "payout": 2020
         }
     ]
 }
