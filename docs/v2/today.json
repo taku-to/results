@@ -637,12 +637,6 @@
             "payout": 2970
         },
         {
-            "venue": "平和島",
-            "race": 11,
-            "result": "1-4-3",
-            "payout": 2000
-        },
-        {
             "venue": "常滑",
             "race": 12,
             "result": "1-2-4",
@@ -653,6 +647,30 @@
             "race": 11,
             "result": "1-3-5",
             "payout": 1580
+        },
+        {
+            "venue": "平和島",
+            "race": 11,
+            "result": "1-4-3",
+            "payout": 2000
+        },
+        {
+            "venue": "浜名湖",
+            "race": 11,
+            "result": "1-6-3",
+            "payout": 4730
+        },
+        {
+            "venue": "蒲郡",
+            "race": 3,
+            "result": "2-5-3",
+            "payout": 12720
+        },
+        {
+            "venue": "尼崎",
+            "race": 12,
+            "result": "1-2-4",
+            "payout": 540
         },
         {
             "venue": "丸亀",
