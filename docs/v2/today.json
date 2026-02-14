@@ -691,6 +691,12 @@
             "payout": 630
         },
         {
+            "venue": "平和島",
+            "race": 12,
+            "result": "1-2-4",
+            "payout": 1000
+        },
+        {
             "venue": "丸亀",
             "race": 4,
             "result": "3-1-5",
