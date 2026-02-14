@@ -907,16 +907,16 @@
             "payout": 2920
         },
         {
-            "venue": "蒲郡",
-            "race": 12,
-            "result": "1-2-3",
-            "payout": 1200
-        },
-        {
             "venue": "下関",
             "race": 8,
             "result": "1-4-3",
             "payout": 2020
+        },
+        {
+            "venue": "下関",
+            "race": 9,
+            "result": "1-4-3",
+            "payout": 1760
         }
     ]
 }
