@@ -725,6 +725,18 @@
             "race": 9,
             "result": "3-5-2",
             "payout": 24300
+        },
+        {
+            "venue": "桐生",
+            "race": 9,
+            "result": "1-2-6",
+            "payout": 1060
+        },
+        {
+            "venue": "若松",
+            "race": 9,
+            "result": "1-2-4",
+            "payout": 1510
         }
     ]
 }
