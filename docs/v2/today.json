@@ -713,6 +713,12 @@
             "race": 8,
             "result": "4-5-1",
             "payout": 2940
+        },
+        {
+            "venue": "若松",
+            "race": 8,
+            "result": "1-4-6",
+            "payout": 2050
         }
     ]
 }
