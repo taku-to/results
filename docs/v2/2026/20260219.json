@@ -557,6 +557,18 @@
             "race": 3,
             "result": "1-5-6",
             "payout": 2020
+        },
+        {
+            "venue": "尼崎",
+            "race": 12,
+            "result": "6-2-4",
+            "payout": 268090
+        },
+        {
+            "venue": "下関",
+            "race": 3,
+            "result": "2-5-4",
+            "payout": 11000
         }
     ]
 }
