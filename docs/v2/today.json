@@ -413,6 +413,24 @@
             "race": 12,
             "result": "1-4-6",
             "payout": 4110
+        },
+        {
+            "venue": "浜名湖",
+            "race": 7,
+            "result": "3-4-2",
+            "payout": 53940
+        },
+        {
+            "venue": "三国",
+            "race": 12,
+            "result": "1-2-5",
+            "payout": 3450
+        },
+        {
+            "venue": "福岡",
+            "race": 8,
+            "result": "1-4-2",
+            "payout": 560
         }
     ]
 }
