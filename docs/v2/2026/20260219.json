@@ -665,6 +665,12 @@
             "race": 5,
             "result": "1-2-4",
             "payout": 1350
+        },
+        {
+            "venue": "大村",
+            "race": 6,
+            "result": "3-1-2",
+            "payout": 8830
         }
     ]
 }
