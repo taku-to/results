@@ -845,6 +845,18 @@
             "race": 6,
             "result": "1-4-3",
             "payout": 840
+        },
+        {
+            "venue": "丸亀",
+            "race": 6,
+            "result": "5-3-4",
+            "payout": 5030
+        },
+        {
+            "venue": "大村",
+            "race": 6,
+            "result": "1-2-3",
+            "payout": 520
         }
     ]
 }
