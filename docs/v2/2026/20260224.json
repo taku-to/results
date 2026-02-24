@@ -793,10 +793,10 @@
             "payout": 3540
         },
         {
-            "venue": "平和島",
-            "race": 12,
-            "result": "4-6-1",
-            "payout": 57130
+            "venue": "桐生",
+            "race": 4,
+            "result": "4-3-1",
+            "payout": 4140
         },
         {
             "venue": "多摩川",
@@ -815,6 +815,12 @@
             "race": 4,
             "result": "3-1-6",
             "payout": 7240
+        },
+        {
+            "venue": "住之江",
+            "race": 5,
+            "result": "1-5-2",
+            "payout": 5180
         }
     ]
 }
