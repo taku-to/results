@@ -235,22 +235,10 @@
             "payout": 2020
         },
         {
-            "venue": "平和島",
-            "race": 3,
-            "result": "4-2-5",
-            "payout": 4450
-        },
-        {
             "venue": "多摩川",
             "race": 3,
             "result": "2-3-1",
             "payout": 1660
-        },
-        {
-            "venue": "びわこ",
-            "race": 4,
-            "result": "2-6-4",
-            "payout": 49500
         },
         {
             "venue": "鳴門",
@@ -271,16 +259,10 @@
             "payout": 1930
         },
         {
-            "venue": "江戸川",
+            "venue": "平和島",
             "race": 4,
-            "result": "1-6-2",
-            "payout": 3350
-        },
-        {
-            "venue": "多摩川",
-            "race": 3,
-            "result": "2-3-1",
-            "payout": 1660
+            "result": "1-4-3",
+            "payout": 1140
         },
         {
             "venue": "浜名湖",
@@ -289,16 +271,22 @@
             "payout": 2750
         },
         {
-            "venue": "鳴門",
-            "race": 4,
-            "result": "1-2-6",
-            "payout": 2780
+            "venue": "びわこ",
+            "race": 5,
+            "result": "1-5-2",
+            "payout": 5280
         },
         {
-            "venue": "宮島",
-            "race": 5,
-            "result": "1-6-5",
-            "payout": 4660
+            "venue": "児島",
+            "race": 4,
+            "result": "3-4-1",
+            "payout": 10190
+        },
+        {
+            "venue": "芦屋",
+            "race": 9,
+            "result": "1-6-2",
+            "payout": 1310
         }
     ]
 }
