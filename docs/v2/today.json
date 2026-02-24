@@ -513,6 +513,30 @@
         {
             "venue": "唐津",
             "race": 12,
+            "result": "1-5-3",
+            "payout": 2120
+        },
+        {
+            "venue": "平和島",
+            "race": 8,
+            "result": "1-3-4",
+            "payout": 1850
+        },
+        {
+            "venue": "浜名湖",
+            "race": 7,
+            "result": "6-1-3",
+            "payout": 2340
+        },
+        {
+            "venue": "児島",
+            "race": 8,
+            "result": "2-3-1",
+            "payout": 1340
+        },
+        {
+            "venue": "唐津",
+            "race": 12,
             "result": "1-3-2",
             "payout": 1680
         }
