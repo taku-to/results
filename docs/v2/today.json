@@ -79,10 +79,40 @@
             "payout": 3040
         },
         {
+            "venue": "戸田",
+            "race": 1,
+            "result": "2-4-3",
+            "payout": 3040
+        },
+        {
+            "venue": "尼崎",
+            "race": 2,
+            "result": "2-3-1",
+            "payout": 9520
+        },
+        {
             "venue": "鳴門",
             "race": 1,
             "result": "3-6-1",
             "payout": 2440
+        },
+        {
+            "venue": "徳山",
+            "race": 6,
+            "result": "4-6-1",
+            "payout": 1930
+        },
+        {
+            "venue": "福岡",
+            "race": 1,
+            "result": "4-2-1",
+            "payout": 49080
+        },
+        {
+            "venue": "唐津",
+            "race": 6,
+            "result": "6-1-2",
+            "payout": 920
         }
     ]
 }
