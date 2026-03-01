@@ -91,6 +91,12 @@
             "payout": 990
         },
         {
+            "venue": "芦屋",
+            "race": 6,
+            "result": "1-2-4",
+            "payout": 5480
+        },
+        {
             "venue": "福岡",
             "race": 1,
             "result": "1-5-2",
