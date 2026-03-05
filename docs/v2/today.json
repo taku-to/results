@@ -647,6 +647,18 @@
             "race": 12,
             "result": "1-5-3",
             "payout": 2010
+        },
+        {
+            "venue": "浜名湖",
+            "race": 12,
+            "result": "1-2-4",
+            "payout": 1360
+        },
+        {
+            "venue": "住之江",
+            "race": 5,
+            "result": "2-1-6",
+            "payout": 1730
         }
     ]
 }
