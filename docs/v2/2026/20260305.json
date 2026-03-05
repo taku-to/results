@@ -137,6 +137,30 @@
             "race": 2,
             "result": "1-5-4",
             "payout": 1670
+        },
+        {
+            "venue": "平和島",
+            "race": 2,
+            "result": "1-2-4",
+            "payout": 7910
+        },
+        {
+            "venue": "浜名湖",
+            "race": 1,
+            "result": "5-6-3",
+            "payout": 27350
+        },
+        {
+            "venue": "びわこ",
+            "race": 3,
+            "result": "1-4-2",
+            "payout": 2020
+        },
+        {
+            "venue": "芦屋",
+            "race": 7,
+            "result": "5-2-4",
+            "payout": 11610
         }
     ]
 }
