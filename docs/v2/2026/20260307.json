@@ -109,16 +109,28 @@
             "payout": 24650
         },
         {
-            "venue": "三国",
-            "race": 6,
-            "result": "5-2-1",
-            "payout": 27300
-        },
-        {
             "venue": "児島",
             "race": 2,
             "result": "1-6-5",
             "payout": 13640
+        },
+        {
+            "venue": "戸田",
+            "race": 2,
+            "result": "2-1-6",
+            "payout": 7730
+        },
+        {
+            "venue": "江戸川",
+            "race": 1,
+            "result": "1-6-5",
+            "payout": 7300
+        },
+        {
+            "venue": "唐津",
+            "race": 7,
+            "result": "2-3-4",
+            "payout": 12360
         }
     ]
 }
