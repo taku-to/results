@@ -665,6 +665,18 @@
             "race": 5,
             "result": "3-1-2",
             "payout": 2470
+        },
+        {
+            "venue": "桐生",
+            "race": 5,
+            "result": "4-5-1",
+            "payout": 40170
+        },
+        {
+            "venue": "住之江",
+            "race": 6,
+            "result": "3-1-2",
+            "payout": 6520
         }
     ]
 }
