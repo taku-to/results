@@ -109,16 +109,16 @@
             "payout": 17230
         },
         {
+            "venue": "常滑",
+            "race": 3,
+            "result": "3-4-2",
+            "payout": 1930
+        },
+        {
             "venue": "尼崎",
             "race": 2,
             "result": "1-4-2",
             "payout": 7480
-        },
-        {
-            "venue": "宮島",
-            "race": 2,
-            "result": "4-1-5",
-            "payout": 22920
         },
         {
             "venue": "徳山",
