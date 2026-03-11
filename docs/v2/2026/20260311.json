@@ -789,6 +789,24 @@
         {
             "venue": "大村",
             "race": 5,
+            "result": "1-4-3",
+            "payout": 1260
+        },
+        {
+            "venue": "桐生",
+            "race": 5,
+            "result": "1-5-6",
+            "payout": 14510
+        },
+        {
+            "venue": "福岡",
+            "race": 12,
+            "result": "1-5-3",
+            "payout": 4310
+        },
+        {
+            "venue": "大村",
+            "race": 5,
             "result": "1-5-4",
             "payout": 1620
         }
