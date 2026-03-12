@@ -187,18 +187,6 @@
             "payout": 27170
         },
         {
-            "venue": "戸田",
-            "race": 3,
-            "result": "4-3-5",
-            "payout": 7540
-        },
-        {
-            "venue": "多摩川",
-            "race": 2,
-            "result": "1-2-3",
-            "payout": 2230
-        },
-        {
             "venue": "浜名湖",
             "race": 1,
             "result": "3-6-2",
@@ -211,16 +199,46 @@
             "payout": 630
         },
         {
-            "venue": "児島",
-            "race": 3,
-            "result": "1-2-6",
-            "payout": 1300
-        },
-        {
             "venue": "徳山",
             "race": 7,
             "result": "3-2-4",
             "payout": 5090
+        },
+        {
+            "venue": "戸田",
+            "race": 3,
+            "result": "4-3-5",
+            "payout": 7540
+        },
+        {
+            "venue": "平和島",
+            "race": 3,
+            "result": "4-2-3",
+            "payout": 34150
+        },
+        {
+            "venue": "多摩川",
+            "race": 2,
+            "result": "1-2-3",
+            "payout": 2230
+        },
+        {
+            "venue": "浜名湖",
+            "race": 2,
+            "result": "2-1-4",
+            "payout": 1230
+        },
+        {
+            "venue": "びわこ",
+            "race": 4,
+            "result": "3-2-6",
+            "payout": 22500
+        },
+        {
+            "venue": "児島",
+            "race": 3,
+            "result": "1-2-6",
+            "payout": 1300
         },
         {
             "venue": "芦屋",
