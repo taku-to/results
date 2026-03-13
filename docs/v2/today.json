@@ -439,12 +439,6 @@
             "payout": 730
         },
         {
-            "venue": "平和島",
-            "race": 7,
-            "result": "3-1-5",
-            "payout": 28720
-        },
-        {
             "venue": "浜名湖",
             "race": 5,
             "result": "1-4-5",
@@ -481,16 +475,10 @@
             "payout": 1830
         },
         {
-            "venue": "浜名湖",
-            "race": 5,
-            "result": "1-4-5",
-            "payout": 1730
-        },
-        {
-            "venue": "浜名湖",
-            "race": 6,
-            "result": "1-3-2",
-            "payout": 1220
+            "venue": "多摩川",
+            "race": 7,
+            "result": "1-5-3",
+            "payout": 1810
         },
         {
             "venue": "常滑",
@@ -499,22 +487,16 @@
             "payout": 1530
         },
         {
-            "venue": "びわこ",
-            "race": 8,
-            "result": "6-2-1",
-            "payout": 16320
-        },
-        {
             "venue": "鳴門",
             "race": 12,
             "result": "1-5-4",
             "payout": 2020
         },
         {
-            "venue": "芦屋",
-            "race": 12,
-            "result": "1-2-3",
-            "payout": 560
+            "venue": "福岡",
+            "race": 6,
+            "result": "2-1-4",
+            "payout": 2920
         }
     ]
 }
