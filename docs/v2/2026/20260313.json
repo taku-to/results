@@ -83,6 +83,18 @@
             "race": 1,
             "result": "1-2-3",
             "payout": 510
+        },
+        {
+            "venue": "びわこ",
+            "race": 1,
+            "result": "4-6-3",
+            "payout": 7090
+        },
+        {
+            "venue": "鳴門",
+            "race": 5,
+            "result": "4-6-3",
+            "payout": 15110
         }
     ]
 }
