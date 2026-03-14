@@ -565,6 +565,12 @@
             "payout": 960
         },
         {
+            "venue": "児島",
+            "race": 9,
+            "result": "6-2-1",
+            "payout": 3200
+        },
+        {
             "venue": "多摩川",
             "race": 9,
             "result": "3-1-6",
@@ -583,16 +589,16 @@
             "payout": 12300
         },
         {
-            "venue": "児島",
-            "race": 9,
-            "result": "6-2-1",
-            "payout": 3200
-        },
-        {
             "venue": "若松",
             "race": 1,
             "result": "5-1-4",
             "payout": 59850
+        },
+        {
+            "venue": "福岡",
+            "race": 8,
+            "result": "2-1-3",
+            "payout": 3240
         }
     ]
 }
