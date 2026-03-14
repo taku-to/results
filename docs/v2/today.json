@@ -619,10 +619,16 @@
             "payout": 4120
         },
         {
-            "venue": "蒲郡",
-            "race": 1,
-            "result": "4-3-6",
-            "payout": 8060
+            "venue": "児島",
+            "race": 10,
+            "result": "5-1-6",
+            "payout": 16300
+        },
+        {
+            "venue": "若松",
+            "race": 2,
+            "result": "1-2-4",
+            "payout": 3970
         }
     ]
 }
