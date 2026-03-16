@@ -65,6 +65,12 @@
             "race": 1,
             "result": "4-3-1",
             "payout": 20110
+        },
+        {
+            "venue": "芦屋",
+            "race": 2,
+            "result": "1-5-2",
+            "payout": 8570
         }
     ]
 }
