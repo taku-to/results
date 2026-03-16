@@ -455,6 +455,12 @@
             "race": 9,
             "result": "1-2-4",
             "payout": 930
+        },
+        {
+            "venue": "蒲郡",
+            "race": 1,
+            "result": "3-1-2",
+            "payout": 3340
         }
     ]
 }
