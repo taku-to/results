@@ -365,6 +365,18 @@
             "race": 8,
             "result": "1-2-5",
             "payout": 1520
+        },
+        {
+            "venue": "江戸川",
+            "race": 8,
+            "result": "1-6-3",
+            "payout": 6420
+        },
+        {
+            "venue": "三国",
+            "race": 12,
+            "result": "1-5-2",
+            "payout": 760
         }
     ]
 }
