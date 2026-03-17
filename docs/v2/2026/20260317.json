@@ -535,6 +535,12 @@
             "payout": 600
         },
         {
+            "venue": "桐生",
+            "race": 4,
+            "result": "4-5-2",
+            "payout": 4570
+        },
+        {
             "venue": "唐津",
             "race": 12,
             "result": "2-1-6",
