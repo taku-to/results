@@ -629,6 +629,12 @@
             "race": 4,
             "result": "3-2-5",
             "payout": 8140
+        },
+        {
+            "venue": "桐生",
+            "race": 9,
+            "result": "2-3-5",
+            "payout": 14000
         }
     ]
 }
