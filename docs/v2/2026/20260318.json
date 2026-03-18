@@ -317,6 +317,18 @@
             "race": 6,
             "result": "1-6-2",
             "payout": 6500
+        },
+        {
+            "venue": "常滑",
+            "race": 7,
+            "result": "1-6-4",
+            "payout": 21900
+        },
+        {
+            "venue": "三国",
+            "race": 10,
+            "result": "1-2-4",
+            "payout": 1230
         }
     ]
 }
