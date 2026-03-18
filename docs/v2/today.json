@@ -95,6 +95,18 @@
             "race": 1,
             "result": "1-3-2",
             "payout": 1900
+        },
+        {
+            "venue": "常滑",
+            "race": 2,
+            "result": "1-4-3",
+            "payout": 2200
+        },
+        {
+            "venue": "宮島",
+            "race": 2,
+            "result": "1-2-3",
+            "payout": 910
         }
     ]
 }
