@@ -973,6 +973,12 @@
             "payout": 1840
         },
         {
+            "venue": "桐生",
+            "race": 11,
+            "result": "1-2-3",
+            "payout": 910
+        },
+        {
             "venue": "丸亀",
             "race": 11,
             "result": "1-5-2",
@@ -985,10 +991,10 @@
             "payout": 1710
         },
         {
-            "venue": "若松",
-            "race": 11,
-            "result": "1-6-3",
-            "payout": 4560
+            "venue": "大村",
+            "race": 7,
+            "result": "1-2-3",
+            "payout": 530
         }
     ]
 }
