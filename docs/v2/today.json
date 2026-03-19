@@ -55,6 +55,18 @@
             "payout": 1190
         },
         {
+            "venue": "三国",
+            "race": 5,
+            "result": "2-1-6",
+            "payout": 16180
+        },
+        {
+            "venue": "尼崎",
+            "race": 1,
+            "result": "1-3-4",
+            "payout": 980
+        },
+        {
             "venue": "鳴門",
             "race": 5,
             "result": "2-1-6",
