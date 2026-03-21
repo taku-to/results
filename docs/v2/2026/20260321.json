@@ -1045,16 +1045,10 @@
             "payout": 870
         },
         {
-            "venue": "丸亀",
+            "venue": "桐生",
             "race": 12,
-            "result": "1-2-3",
-            "payout": 490
-        },
-        {
-            "venue": "下関",
-            "race": 12,
-            "result": "1-4-3",
-            "payout": 550
+            "result": "1-3-6",
+            "payout": 7430
         }
     ]
 }
