@@ -803,6 +803,18 @@
             "race": 7,
             "result": "1-2-6",
             "payout": 780
+        },
+        {
+            "venue": "丸亀",
+            "race": 7,
+            "result": "1-2-4",
+            "payout": 2010
+        },
+        {
+            "venue": "下関",
+            "race": 7,
+            "result": "3-5-4",
+            "payout": 15970
         }
     ]
 }
