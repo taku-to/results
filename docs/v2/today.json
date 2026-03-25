@@ -301,22 +301,10 @@
             "payout": 4210
         },
         {
-            "venue": "平和島",
-            "race": 6,
-            "result": "2-3-1",
-            "payout": 1640
-        },
-        {
             "venue": "多摩川",
             "race": 5,
             "result": "5-4-1",
             "payout": 5300
-        },
-        {
-            "venue": "津",
-            "race": 7,
-            "result": "1-4-6",
-            "payout": 760
         },
         {
             "venue": "福岡",
@@ -325,10 +313,10 @@
             "payout": 4500
         },
         {
-            "venue": "多摩川",
-            "race": 5,
-            "result": "5-4-1",
-            "payout": 5300
+            "venue": "浜名湖",
+            "race": 6,
+            "result": "3-6-1",
+            "payout": 5050
         },
         {
             "venue": "尼崎",
