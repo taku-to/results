@@ -227,6 +227,18 @@
             "race": 9,
             "result": "1-3-2",
             "payout": 1210
+        },
+        {
+            "venue": "津",
+            "race": 5,
+            "result": "1-2-4",
+            "payout": 600
+        },
+        {
+            "venue": "福岡",
+            "race": 2,
+            "result": "3-2-5",
+            "payout": 6320
         }
     ]
 }
