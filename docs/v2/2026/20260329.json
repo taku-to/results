@@ -43,6 +43,12 @@
             "payout": 30630
         },
         {
+            "venue": "三国",
+            "race": 3,
+            "result": "3-2-1",
+            "payout": 3240
+        },
+        {
             "venue": "唐津",
             "race": 3,
             "result": "3-2-1",
