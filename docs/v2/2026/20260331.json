@@ -853,16 +853,16 @@
             "payout": 4380
         },
         {
-            "venue": "下関",
-            "race": 9,
-            "result": "4-1-2",
-            "payout": 12260
-        },
-        {
             "venue": "大村",
             "race": 9,
             "result": "1-5-2",
             "payout": 1640
+        },
+        {
+            "venue": "下関",
+            "race": 9,
+            "result": "4-1-2",
+            "payout": 12260
         }
     ]
 }
