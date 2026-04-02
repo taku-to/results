@@ -599,6 +599,12 @@
             "race": 10,
             "result": "1-3-5",
             "payout": 1720
+        },
+        {
+            "venue": "桐生",
+            "race": 10,
+            "result": "1-4-2",
+            "payout": 2020
         }
     ]
 }
