@@ -527,6 +527,12 @@
             "race": 9,
             "result": "1-2-4",
             "payout": 1750
+        },
+        {
+            "venue": "福岡",
+            "race": 7,
+            "result": "1-4-2",
+            "payout": 460
         }
     ]
 }
