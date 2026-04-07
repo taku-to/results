@@ -205,6 +205,12 @@
             "payout": 700
         },
         {
+            "venue": "津",
+            "race": 4,
+            "result": "1-5-2",
+            "payout": 2050
+        },
+        {
             "venue": "児島",
             "race": 3,
             "result": "3-4-2",
