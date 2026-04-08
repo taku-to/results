@@ -397,16 +397,10 @@
             "payout": 1890
         },
         {
-            "venue": "常滑",
-            "race": 10,
-            "result": "3-2-6",
-            "payout": 31030
-        },
-        {
-            "venue": "びわこ",
+            "venue": "平和島",
             "race": 9,
-            "result": "1-4-3",
-            "payout": 990
+            "result": "1-3-4",
+            "payout": 800
         }
     ]
 }
