@@ -443,6 +443,24 @@
             "race": 1,
             "result": "1-4-3",
             "payout": 5190
+        },
+        {
+            "venue": "戸田",
+            "race": 10,
+            "result": "1-2-5",
+            "payout": 4620
+        },
+        {
+            "venue": "平和島",
+            "race": 10,
+            "result": "3-5-6",
+            "payout": 17290
+        },
+        {
+            "venue": "大村",
+            "race": 2,
+            "result": "1-6-3",
+            "payout": 7300
         }
     ]
 }
