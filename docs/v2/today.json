@@ -83,6 +83,18 @@
             "race": 1,
             "result": "1-2-6",
             "payout": 2490
+        },
+        {
+            "venue": "宮島",
+            "race": 1,
+            "result": "1-2-3",
+            "payout": 140
+        },
+        {
+            "venue": "唐津",
+            "race": 6,
+            "result": "3-2-6",
+            "payout": 1960
         }
     ]
 }
