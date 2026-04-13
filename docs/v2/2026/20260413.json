@@ -101,6 +101,24 @@
             "race": 7,
             "result": "4-2-3",
             "payout": 730
+        },
+        {
+            "venue": "平和島",
+            "race": 2,
+            "result": "3-1-2",
+            "payout": 1240
+        },
+        {
+            "venue": "児島",
+            "race": 2,
+            "result": "2-1-4",
+            "payout": 3570
+        },
+        {
+            "venue": "宮島",
+            "race": 2,
+            "result": "3-5-4",
+            "payout": 3230
         }
     ]
 }
