@@ -131,6 +131,12 @@
             "race": 7,
             "result": "6-2-1",
             "payout": 15380
+        },
+        {
+            "venue": "江戸川",
+            "race": 2,
+            "result": "1-5-3",
+            "payout": 7110
         }
     ]
 }
