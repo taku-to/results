@@ -293,6 +293,12 @@
             "race": 10,
             "result": "1-2-6",
             "payout": 2590
+        },
+        {
+            "venue": "戸田",
+            "race": 6,
+            "result": "1-2-5",
+            "payout": 6750
         }
     ]
 }
