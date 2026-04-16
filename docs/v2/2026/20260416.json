@@ -287,6 +287,24 @@
             "race": 1,
             "result": "4-2-1",
             "payout": 41570
+        },
+        {
+            "venue": "戸田",
+            "race": 5,
+            "result": "3-4-2",
+            "payout": 5440
+        },
+        {
+            "venue": "江戸川",
+            "race": 4,
+            "result": "2-1-5",
+            "payout": 990
+        },
+        {
+            "venue": "津",
+            "race": 5,
+            "result": "1-5-3",
+            "payout": 1840
         }
     ]
 }
