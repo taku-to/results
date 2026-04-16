@@ -167,6 +167,18 @@
             "race": 7,
             "result": "3-2-1",
             "payout": 17980
+        },
+        {
+            "venue": "鳴門",
+            "race": 7,
+            "result": "3-2-4",
+            "payout": 9440
+        },
+        {
+            "venue": "児島",
+            "race": 2,
+            "result": "3-1-2",
+            "payout": 4010
         }
     ]
 }
