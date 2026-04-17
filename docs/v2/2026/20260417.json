@@ -77,6 +77,24 @@
             "race": 5,
             "result": "1-2-5",
             "payout": 730
+        },
+        {
+            "venue": "常滑",
+            "race": 1,
+            "result": "4-5-1",
+            "payout": 3480
+        },
+        {
+            "venue": "三国",
+            "race": 5,
+            "result": "2-4-1",
+            "payout": 5930
+        },
+        {
+            "venue": "芦屋",
+            "race": 5,
+            "result": "6-1-2",
+            "payout": 4520
         }
     ]
 }
