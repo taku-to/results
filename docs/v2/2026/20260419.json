@@ -967,10 +967,16 @@
             "payout": 630
         },
         {
-            "venue": "若松",
+            "venue": "住之江",
             "race": 11,
-            "result": "1-2-6",
-            "payout": 7140
+            "result": "1-4-2",
+            "payout": 1200
+        },
+        {
+            "venue": "丸亀",
+            "race": 11,
+            "result": "1-5-2",
+            "payout": 3980
         }
     ]
 }
