@@ -917,6 +917,24 @@
             "race": 12,
             "result": "5-4-1",
             "payout": 3510
+        },
+        {
+            "venue": "桐生",
+            "race": 12,
+            "result": "1-2-4",
+            "payout": 650
+        },
+        {
+            "venue": "蒲郡",
+            "race": 12,
+            "result": "5-1-6",
+            "payout": 28680
+        },
+        {
+            "venue": "丸亀",
+            "race": 12,
+            "result": "1-2-3",
+            "payout": 430
         }
     ]
 }
