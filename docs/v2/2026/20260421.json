@@ -353,6 +353,48 @@
             "race": 8,
             "result": "1-4-2",
             "payout": 780
+        },
+        {
+            "venue": "びわこ",
+            "race": 8,
+            "result": "1-4-2",
+            "payout": 6260
+        },
+        {
+            "venue": "芦屋",
+            "race": 3,
+            "result": "1-6-5",
+            "payout": 40310
+        },
+        {
+            "venue": "芦屋",
+            "race": 4,
+            "result": "1-2-4",
+            "payout": 780
+        },
+        {
+            "venue": "芦屋",
+            "race": 6,
+            "result": "3-2-6",
+            "payout": 6680
+        },
+        {
+            "venue": "芦屋",
+            "race": 7,
+            "result": "2-3-4",
+            "payout": 1480
+        },
+        {
+            "venue": "芦屋",
+            "race": 8,
+            "result": "2-3-6",
+            "payout": 3970
+        },
+        {
+            "venue": "芦屋",
+            "race": 10,
+            "result": "3-4-2",
+            "payout": 3380
         }
     ]
 }
