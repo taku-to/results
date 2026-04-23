@@ -671,6 +671,24 @@
             "race": 5,
             "result": "2-1-4",
             "payout": 2020
+        },
+        {
+            "venue": "多摩川",
+            "race": 12,
+            "result": "2-3-1",
+            "payout": 10760
+        },
+        {
+            "venue": "住之江",
+            "race": 5,
+            "result": "6-1-5",
+            "payout": 38130
+        },
+        {
+            "venue": "福岡",
+            "race": 11,
+            "result": "2-1-6",
+            "payout": 17190
         }
     ]
 }
