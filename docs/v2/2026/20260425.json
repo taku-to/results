@@ -1057,16 +1057,28 @@
             "payout": 350
         },
         {
+            "venue": "丸亀",
+            "race": 9,
+            "result": "2-4-1",
+            "payout": 8650
+        },
+        {
             "venue": "桐生",
             "race": 10,
             "result": "3-1-2",
             "payout": 1480
         },
         {
-            "venue": "丸亀",
-            "race": 9,
-            "result": "2-4-1",
-            "payout": 8650
+            "venue": "蒲郡",
+            "race": 10,
+            "result": "3-1-2",
+            "payout": 16230
+        },
+        {
+            "venue": "住之江",
+            "race": 10,
+            "result": "1-2-3",
+            "payout": 1010
         },
         {
             "venue": "若松",
