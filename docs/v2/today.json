@@ -913,6 +913,12 @@
             "payout": 5060
         },
         {
+            "venue": "下関",
+            "race": 10,
+            "result": "1-2-3",
+            "payout": 610
+        },
+        {
             "venue": "大村",
             "race": 5,
             "result": "1-5-4",
