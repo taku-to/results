@@ -481,12 +481,6 @@
             "payout": 900
         },
         {
-            "venue": "津",
-            "race": 8,
-            "result": "3-4-2",
-            "payout": 40070
-        },
-        {
             "venue": "三国",
             "race": 11,
             "result": "4-1-5",
@@ -497,6 +491,18 @@
             "race": 7,
             "result": "4-2-1",
             "payout": 4710
+        },
+        {
+            "venue": "多摩川",
+            "race": 5,
+            "result": "4-5-3",
+            "payout": 8290
+        },
+        {
+            "venue": "津",
+            "race": 8,
+            "result": "3-4-2",
+            "payout": 40070
         },
         {
             "venue": "鳴門",
