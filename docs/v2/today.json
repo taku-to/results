@@ -445,6 +445,12 @@
             "payout": 1060
         },
         {
+            "venue": "尼崎",
+            "race": 10,
+            "result": "1-2-4",
+            "payout": 580
+        },
+        {
             "venue": "福岡",
             "race": 6,
             "result": "1-2-5",
