@@ -913,6 +913,12 @@
             "payout": 900
         },
         {
+            "venue": "桐生",
+            "race": 9,
+            "result": "1-2-5",
+            "payout": 1370
+        },
+        {
             "venue": "下関",
             "race": 9,
             "result": "1-3-2",
