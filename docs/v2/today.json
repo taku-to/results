@@ -803,6 +803,18 @@
             "race": 5,
             "result": "1-2-4",
             "payout": 340
+        },
+        {
+            "venue": "桐生",
+            "race": 10,
+            "result": "1-2-5",
+            "payout": 1910
+        },
+        {
+            "venue": "下関",
+            "race": 10,
+            "result": "1-2-4",
+            "payout": 1980
         }
     ]
 }
