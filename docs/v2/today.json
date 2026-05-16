@@ -169,6 +169,18 @@
             "payout": 3040
         },
         {
+            "venue": "平和島",
+            "race": 1,
+            "result": "1-2-3",
+            "payout": 590
+        },
+        {
+            "venue": "浜名湖",
+            "race": 2,
+            "result": "2-1-4",
+            "payout": 4910
+        },
+        {
             "venue": "鳴門",
             "race": 8,
             "result": "1-2-5",
@@ -179,6 +191,12 @@
             "race": 3,
             "result": "2-1-3",
             "payout": 580
+        },
+        {
+            "venue": "芦屋",
+            "race": 4,
+            "result": "2-1-3",
+            "payout": 4010
         }
     ]
 }
