@@ -557,6 +557,24 @@
             "race": 8,
             "result": "1-2-4",
             "payout": 2020
+        },
+        {
+            "venue": "常滑",
+            "race": 2,
+            "result": "2-3-5",
+            "payout": 1340
+        },
+        {
+            "venue": "津",
+            "race": 11,
+            "result": "5-1-2",
+            "payout": 109280
+        },
+        {
+            "venue": "児島",
+            "race": 10,
+            "result": "2-5-1",
+            "payout": 1040
         }
     ]
 }
