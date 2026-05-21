@@ -503,6 +503,12 @@
             "race": 1,
             "result": "4-3-1",
             "payout": 2260
+        },
+        {
+            "venue": "宮島",
+            "race": 10,
+            "result": "4-6-5",
+            "payout": 13440
         }
     ]
 }
