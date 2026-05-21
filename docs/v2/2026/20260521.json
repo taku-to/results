@@ -203,6 +203,18 @@
             "race": 4,
             "result": "3-2-4",
             "payout": 7950
+        },
+        {
+            "venue": "宮島",
+            "race": 4,
+            "result": "1-6-2",
+            "payout": 2090
+        },
+        {
+            "venue": "徳山",
+            "race": 8,
+            "result": "2-4-3",
+            "payout": 790
         }
     ]
 }
