@@ -245,6 +245,12 @@
             "race": 9,
             "result": "3-1-4",
             "payout": 2010
+        },
+        {
+            "venue": "びわこ",
+            "race": 5,
+            "result": "5-1-2",
+            "payout": 6960
         }
     ]
 }
