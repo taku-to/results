@@ -413,6 +413,12 @@
             "race": 12,
             "result": "1-2-5",
             "payout": 960
+        },
+        {
+            "venue": "多摩川",
+            "race": 6,
+            "result": "1-2-3",
+            "payout": 520
         }
     ]
 }
