@@ -215,6 +215,18 @@
             "race": 8,
             "result": "1-5-4",
             "payout": 6680
+        },
+        {
+            "venue": "多摩川",
+            "race": 2,
+            "result": "6-3-1",
+            "payout": 29560
+        },
+        {
+            "venue": "唐津",
+            "race": 9,
+            "result": "2-1-5",
+            "payout": 1770
         }
     ]
 }
