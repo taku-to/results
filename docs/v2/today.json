@@ -149,6 +149,18 @@
             "race": 3,
             "result": "2-3-5",
             "payout": 11170
+        },
+        {
+            "venue": "常滑",
+            "race": 3,
+            "result": "3-1-5",
+            "payout": 3640
+        },
+        {
+            "venue": "徳山",
+            "race": 7,
+            "result": "3-1-5",
+            "payout": 2930
         }
     ]
 }
