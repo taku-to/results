@@ -491,6 +491,12 @@
             "race": 8,
             "result": "1-6-5",
             "payout": 4160
+        },
+        {
+            "venue": "津",
+            "race": 9,
+            "result": "1-4-2",
+            "payout": 810
         }
     ]
 }
