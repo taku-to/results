@@ -161,6 +161,12 @@
             "race": 7,
             "result": "2-4-1",
             "payout": 2010
+        },
+        {
+            "venue": "三国",
+            "race": 7,
+            "result": "2-1-6",
+            "payout": 12450
         }
     ]
 }
