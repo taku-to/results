@@ -333,6 +333,24 @@
         {
             "venue": "芦屋",
             "race": 10,
+            "result": "1-2-4",
+            "payout": 1520
+        },
+        {
+            "venue": "びわこ",
+            "race": 6,
+            "result": "1-4-5",
+            "payout": 2410
+        },
+        {
+            "venue": "尼崎",
+            "race": 6,
+            "result": "4-1-2",
+            "payout": 2220
+        },
+        {
+            "venue": "芦屋",
+            "race": 10,
             "result": "1-2-6",
             "payout": 3440
         }
