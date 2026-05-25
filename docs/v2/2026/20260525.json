@@ -605,6 +605,30 @@
             "race": 10,
             "result": "1-2-3",
             "payout": 710
+        },
+        {
+            "venue": "多摩川",
+            "race": 9,
+            "result": "1-2-3",
+            "payout": 630
+        },
+        {
+            "venue": "住之江",
+            "race": 2,
+            "result": "2-3-6",
+            "payout": 9340
+        },
+        {
+            "venue": "尼崎",
+            "race": 11,
+            "result": "1-2-4",
+            "payout": 1230
+        },
+        {
+            "venue": "大村",
+            "race": 2,
+            "result": "6-3-5",
+            "payout": 27130
         }
     ]
 }
