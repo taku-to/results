@@ -551,6 +551,18 @@
             "race": 9,
             "result": "3-6-1",
             "payout": 35260
+        },
+        {
+            "venue": "びわこ",
+            "race": 10,
+            "result": "1-2-3",
+            "payout": 950
+        },
+        {
+            "venue": "大村",
+            "race": 1,
+            "result": "2-1-5",
+            "payout": 1990
         }
     ]
 }
