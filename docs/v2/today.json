@@ -713,6 +713,84 @@
             "race": 9,
             "result": "3-4-2",
             "payout": 33730
+        },
+        {
+            "venue": "蒲郡",
+            "race": 9,
+            "result": "4-1-2",
+            "payout": 4000
+        },
+        {
+            "venue": "蒲郡",
+            "race": 10,
+            "result": "1-4-5",
+            "payout": 750
+        },
+        {
+            "venue": "蒲郡",
+            "race": 11,
+            "result": "4-3-2",
+            "payout": 30190
+        },
+        {
+            "venue": "蒲郡",
+            "race": 12,
+            "result": "3-2-1",
+            "payout": 45320
+        },
+        {
+            "venue": "住之江",
+            "race": 10,
+            "result": "1-3-6",
+            "payout": 4350
+        },
+        {
+            "venue": "住之江",
+            "race": 11,
+            "result": "4-6-2",
+            "payout": 59780
+        },
+        {
+            "venue": "住之江",
+            "race": 12,
+            "result": "1-2-4",
+            "payout": 2070
+        },
+        {
+            "venue": "丸亀",
+            "race": 10,
+            "result": "5-1-2",
+            "payout": 8360
+        },
+        {
+            "venue": "丸亀",
+            "race": 11,
+            "result": "1-4-5",
+            "payout": 1100
+        },
+        {
+            "venue": "丸亀",
+            "race": 12,
+            "result": "1-5-4",
+            "payout": 2870
+        },
+        {
+            "venue": "大村",
+            "race": 10,
+            "result": "1-4-6",
+            "payout": 3690
+        },
+        {
+            "venue": "大村",
+            "race": 11,
+            "result": "1-3-5",
+            "payout": 570
+        },
+        {
+            "venue": "大村",
+            "race": 12,
+            "result": "1-3-4",
+            "payout": 690
         }
     ]
 }
