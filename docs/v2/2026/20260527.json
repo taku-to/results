@@ -461,6 +461,12 @@
             "race": 10,
             "result": "4-6-5",
             "payout": 2990
+        },
+        {
+            "venue": "浜名湖",
+            "race": 9,
+            "result": "1-2-3",
+            "payout": 1460
         }
     ]
 }
