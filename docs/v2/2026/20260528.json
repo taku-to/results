@@ -443,6 +443,12 @@
             "race": 12,
             "result": "2-3-6",
             "payout": 2240
+        },
+        {
+            "venue": "戸田",
+            "race": 8,
+            "result": "2-4-1",
+            "payout": 4040
         }
     ]
 }
