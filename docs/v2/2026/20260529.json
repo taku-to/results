@@ -29,6 +29,18 @@
             "race": 2,
             "result": "2-1-5",
             "payout": 2020
+        },
+        {
+            "venue": "鳴門",
+            "race": 2,
+            "result": "2-5-3",
+            "payout": 1560
+        },
+        {
+            "venue": "徳山",
+            "race": 2,
+            "result": "1-4-3",
+            "payout": 2560
         }
     ]
 }
