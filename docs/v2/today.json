@@ -371,6 +371,18 @@
             "race": 9,
             "result": "1-2-6",
             "payout": 4950
+        },
+        {
+            "venue": "常滑",
+            "race": 10,
+            "result": "1-2-6",
+            "payout": 6930
+        },
+        {
+            "venue": "津",
+            "race": 9,
+            "result": "1-3-5",
+            "payout": 520
         }
     ]
 }
