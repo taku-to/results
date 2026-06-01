@@ -605,6 +605,18 @@
             "race": 5,
             "result": "6-4-5",
             "payout": 17060
+        },
+        {
+            "venue": "下関",
+            "race": 5,
+            "result": "4-6-1",
+            "payout": 26220
+        },
+        {
+            "venue": "大村",
+            "race": 1,
+            "result": "6-2-1",
+            "payout": 36220
         }
     ]
 }
