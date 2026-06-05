@@ -305,6 +305,24 @@
             "race": 10,
             "result": "2-4-1",
             "payout": 2010
+        },
+        {
+            "venue": "常滑",
+            "race": 7,
+            "result": "3-6-5",
+            "payout": 4320
+        },
+        {
+            "venue": "宮島",
+            "race": 6,
+            "result": "5-4-6",
+            "payout": 21350
+        },
+        {
+            "venue": "芦屋",
+            "race": 11,
+            "result": "1-6-2",
+            "payout": 2550
         }
     ]
 }
