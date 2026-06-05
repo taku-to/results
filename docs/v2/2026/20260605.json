@@ -121,10 +121,22 @@
             "payout": 990
         },
         {
-            "venue": "三国",
+            "venue": "常滑",
+            "race": 2,
+            "result": "2-3-5",
+            "payout": 1180
+        },
+        {
+            "venue": "尼崎",
+            "race": 2,
+            "result": "3-6-4",
+            "payout": 10660
+        },
+        {
+            "venue": "徳山",
             "race": 6,
-            "result": "1-6-3",
-            "payout": 13760
+            "result": "1-3-2",
+            "payout": 1790
         }
     ]
 }
