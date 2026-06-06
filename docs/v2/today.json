@@ -385,16 +385,16 @@
             "payout": 1050
         },
         {
+            "venue": "浜名湖",
+            "race": 7,
+            "result": "4-6-1",
+            "payout": 4750
+        },
+        {
             "venue": "常滑",
             "race": 9,
             "result": "2-4-5",
             "payout": 6850
-        },
-        {
-            "venue": "宮島",
-            "race": 8,
-            "result": "4-5-3",
-            "payout": 8320
         }
     ]
 }
