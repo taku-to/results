@@ -461,6 +461,12 @@
             "race": 12,
             "result": "1-2-6",
             "payout": 2530
+        },
+        {
+            "venue": "宮島",
+            "race": 8,
+            "result": "1-4-2",
+            "payout": 3170
         }
     ]
 }
