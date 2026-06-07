@@ -383,6 +383,24 @@
             "race": 11,
             "result": "1-2-4",
             "payout": 1040
+        },
+        {
+            "venue": "多摩川",
+            "race": 5,
+            "result": "4-6-5",
+            "payout": 35840
+        },
+        {
+            "venue": "浜名湖",
+            "race": 5,
+            "result": "3-1-2",
+            "payout": 6140
+        },
+        {
+            "venue": "三国",
+            "race": 11,
+            "result": "1-5-3",
+            "payout": 3200
         }
     ]
 }
