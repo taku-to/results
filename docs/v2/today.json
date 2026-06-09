@@ -89,6 +89,12 @@
             "race": 6,
             "result": "4-3-2",
             "payout": 14110
+        },
+        {
+            "venue": "びわこ",
+            "race": 2,
+            "result": "1-4-5",
+            "payout": 3320
         }
     ]
 }
