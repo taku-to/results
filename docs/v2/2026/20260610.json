@@ -241,22 +241,16 @@
             "payout": 5250
         },
         {
-            "venue": "尼崎",
-            "race": 4,
-            "result": "3-1-2",
-            "payout": 5550
-        },
-        {
-            "venue": "鳴門",
-            "race": 8,
-            "result": "1-5-2",
-            "payout": 610
-        },
-        {
             "venue": "唐津",
             "race": 9,
             "result": "3-1-2",
             "payout": 1520
+        },
+        {
+            "venue": "びわこ",
+            "race": 5,
+            "result": "5-3-2",
+            "payout": 10040
         }
     ]
 }
