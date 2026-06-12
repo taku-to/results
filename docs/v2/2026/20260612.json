@@ -5,6 +5,18 @@
             "race": 1,
             "result": "3-1-5",
             "payout": 1910
+        },
+        {
+            "venue": "鳴門",
+            "race": 1,
+            "result": "1-4-2",
+            "payout": 1420
+        },
+        {
+            "venue": "唐津",
+            "race": 2,
+            "result": "1-2-6",
+            "payout": 280
         }
     ]
 }
