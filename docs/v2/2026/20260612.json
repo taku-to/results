@@ -359,6 +359,18 @@
             "race": 10,
             "result": "5-2-6",
             "payout": 25530
+        },
+        {
+            "venue": "三国",
+            "race": 11,
+            "result": "1-3-5",
+            "payout": 3320
+        },
+        {
+            "venue": "児島",
+            "race": 6,
+            "result": "3-4-5",
+            "payout": 3540
         }
     ]
 }
