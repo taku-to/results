@@ -217,16 +217,22 @@
             "payout": 10220
         },
         {
-            "venue": "江戸川",
-            "race": 4,
-            "result": "1-3-2",
-            "payout": 4990
-        },
-        {
             "venue": "芦屋",
             "race": 10,
             "result": "3-6-1",
             "payout": 6510
+        },
+        {
+            "venue": "三国",
+            "race": 10,
+            "result": "1-3-2",
+            "payout": 670
+        },
+        {
+            "venue": "福岡",
+            "race": 2,
+            "result": "2-4-1",
+            "payout": 3010
         }
     ]
 }
