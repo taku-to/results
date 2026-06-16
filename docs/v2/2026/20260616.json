@@ -257,6 +257,12 @@
             "race": 9,
             "result": "3-2-5",
             "payout": 21640
+        },
+        {
+            "venue": "三国",
+            "race": 9,
+            "result": "1-3-4",
+            "payout": 840
         }
     ]
 }
