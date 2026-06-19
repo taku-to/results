@@ -443,6 +443,12 @@
             "race": 8,
             "result": "5-6-1",
             "payout": 2150
+        },
+        {
+            "venue": "宮島",
+            "race": 8,
+            "result": "2-4-1",
+            "payout": 4610
         }
     ]
 }
