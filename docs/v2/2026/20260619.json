@@ -565,6 +565,12 @@
             "payout": 2080
         },
         {
+            "venue": "津",
+            "race": 11,
+            "result": "1-2-4",
+            "payout": 300
+        },
+        {
             "venue": "びわこ",
             "race": 11,
             "result": "1-2-4",
