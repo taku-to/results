@@ -149,6 +149,18 @@
             "race": 7,
             "result": "3-1-5",
             "payout": 6980
+        },
+        {
+            "venue": "多摩川",
+            "race": 1,
+            "result": "4-3-5",
+            "payout": 2660
+        },
+        {
+            "venue": "びわこ",
+            "race": 3,
+            "result": "5-6-2",
+            "payout": 7030
         }
     ]
 }
