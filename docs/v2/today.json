@@ -49,6 +49,12 @@
             "payout": 29220
         },
         {
+            "venue": "びわこ",
+            "race": 1,
+            "result": "1-5-2",
+            "payout": 1500
+        },
+        {
             "venue": "芦屋",
             "race": 5,
             "result": "1-2-5",
