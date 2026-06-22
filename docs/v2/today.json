@@ -895,16 +895,22 @@
             "payout": 1590
         },
         {
+            "venue": "福岡",
+            "race": 12,
+            "result": "1-2-3",
+            "payout": 740
+        },
+        {
             "venue": "丸亀",
             "race": 7,
             "result": "2-4-3",
             "payout": 5360
         },
         {
-            "venue": "福岡",
-            "race": 12,
-            "result": "1-2-3",
-            "payout": 740
+            "venue": "下関",
+            "race": 7,
+            "result": "1-3-6",
+            "payout": 600
         },
         {
             "venue": "大村",
