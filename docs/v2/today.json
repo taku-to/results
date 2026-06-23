@@ -95,6 +95,18 @@
             "race": 6,
             "result": "3-1-2",
             "payout": 4780
+        },
+        {
+            "venue": "常滑",
+            "race": 2,
+            "result": "5-1-2",
+            "payout": 2800
+        },
+        {
+            "venue": "びわこ",
+            "race": 2,
+            "result": "1-2-4",
+            "payout": 820
         }
     ]
 }
