@@ -937,16 +937,22 @@
             "payout": 670
         },
         {
+            "venue": "丸亀",
+            "race": 7,
+            "result": "1-6-5",
+            "payout": 1210
+        },
+        {
             "venue": "住之江",
             "race": 7,
             "result": "4-3-1",
             "payout": 8310
         },
         {
-            "venue": "丸亀",
+            "venue": "下関",
             "race": 7,
-            "result": "1-6-5",
-            "payout": 1210
+            "result": "3-1-4",
+            "payout": 11980
         }
     ]
 }
