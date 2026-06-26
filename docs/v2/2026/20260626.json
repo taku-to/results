@@ -229,16 +229,64 @@
             "payout": 3220
         },
         {
-            "venue": "津",
-            "race": 4,
-            "result": "2-4-6",
-            "payout": 4430
+            "venue": "江戸川",
+            "race": 3,
+            "result": "3-1-5",
+            "payout": 7730
         },
         {
             "venue": "宮島",
             "race": 4,
             "result": "2-1-4",
             "payout": 1280
+        },
+        {
+            "venue": "芦屋",
+            "race": 9,
+            "result": "1-5-3",
+            "payout": 1220
+        },
+        {
+            "venue": "江戸川",
+            "race": 4,
+            "result": "1-2-4",
+            "payout": 1540
+        },
+        {
+            "venue": "平和島",
+            "race": 2,
+            "result": "3-2-1",
+            "payout": 13140
+        },
+        {
+            "venue": "津",
+            "race": 4,
+            "result": "2-4-6",
+            "payout": 4430
+        },
+        {
+            "venue": "尼崎",
+            "race": 5,
+            "result": "4-1-2",
+            "payout": 99500
+        },
+        {
+            "venue": "徳山",
+            "race": 9,
+            "result": "1-4-6",
+            "payout": 3020
+        },
+        {
+            "venue": "福岡",
+            "race": 1,
+            "result": "1-2-3",
+            "payout": 950
+        },
+        {
+            "venue": "唐津",
+            "race": 9,
+            "result": "1-2-6",
+            "payout": 1020
         }
     ]
 }
