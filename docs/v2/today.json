@@ -823,10 +823,16 @@
             "payout": 6450
         },
         {
-            "venue": "住之江",
+            "venue": "蒲郡",
+            "race": 4,
+            "result": "2-1-5",
+            "payout": 1130
+        },
+        {
+            "venue": "蒲郡",
             "race": 5,
-            "result": "3-2-6",
-            "payout": 2070
+            "result": "5-4-3",
+            "payout": 15880
         },
         {
             "venue": "大村",
