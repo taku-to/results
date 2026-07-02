@@ -749,6 +749,24 @@
             "race": 1,
             "result": "5-4-2",
             "payout": 3420
+        },
+        {
+            "venue": "大村",
+            "race": 6,
+            "result": "1-2-6",
+            "payout": 680
+        },
+        {
+            "venue": "下関",
+            "race": 6,
+            "result": "3-2-1",
+            "payout": 11310
+        },
+        {
+            "venue": "福岡",
+            "race": 12,
+            "result": "1-2-4",
+            "payout": 550
         }
     ]
 }
