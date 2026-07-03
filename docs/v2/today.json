@@ -853,16 +853,22 @@
             "payout": 36550
         },
         {
-            "venue": "若松",
-            "race": 2,
-            "result": "1-4-5",
-            "payout": 2140
-        },
-        {
             "venue": "蒲郡",
             "race": 7,
             "result": "3-2-6",
             "payout": 1210
+        },
+        {
+            "venue": "住之江",
+            "race": 8,
+            "result": "3-5-2",
+            "payout": 36770
+        },
+        {
+            "venue": "下関",
+            "race": 8,
+            "result": "2-1-5",
+            "payout": 13650
         },
         {
             "venue": "若松",
