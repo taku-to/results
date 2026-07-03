@@ -977,6 +977,18 @@
             "race": 7,
             "result": "1-2-5",
             "payout": 510
+        },
+        {
+            "venue": "蒲郡",
+            "race": 12,
+            "result": "1-2-3",
+            "payout": 680
+        },
+        {
+            "venue": "下関",
+            "race": 12,
+            "result": "3-1-5",
+            "payout": 1950
         }
     ]
 }
