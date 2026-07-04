@@ -5,6 +5,24 @@
             "race": 1,
             "result": "1-5-3",
             "payout": 960
+        },
+        {
+            "venue": "徳山",
+            "race": 1,
+            "result": "1-4-6",
+            "payout": 2230
+        },
+        {
+            "venue": "芦屋",
+            "race": 2,
+            "result": "1-4-3",
+            "payout": 720
+        },
+        {
+            "venue": "唐津",
+            "race": 2,
+            "result": "1-2-3",
+            "payout": 420
         }
     ]
 }
