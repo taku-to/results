@@ -371,6 +371,12 @@
             "race": 6,
             "result": "1-2-6",
             "payout": 980
+        },
+        {
+            "venue": "平和島",
+            "race": 7,
+            "result": "3-6-4",
+            "payout": 9300
         }
     ]
 }
