@@ -395,6 +395,12 @@
             "race": 8,
             "result": "1-2-3",
             "payout": 9380
+        },
+        {
+            "venue": "常滑",
+            "race": 9,
+            "result": "6-1-2",
+            "payout": 74510
         }
     ]
 }
