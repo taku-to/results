@@ -433,22 +433,22 @@
             "payout": 45030
         },
         {
-            "venue": "桐生",
-            "race": 1,
-            "result": "1-4-3",
-            "payout": 2400
-        },
-        {
-            "venue": "びわこ",
-            "race": 10,
-            "result": "3-6-4",
-            "payout": 23650
+            "venue": "多摩川",
+            "race": 9,
+            "result": "3-1-4",
+            "payout": 6400
         },
         {
             "venue": "尼崎",
             "race": 11,
             "result": "2-3-1",
             "payout": 4320
+        },
+        {
+            "venue": "若松",
+            "race": 2,
+            "result": "4-3-5",
+            "payout": 8840
         }
     ]
 }
