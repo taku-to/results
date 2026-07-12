@@ -469,22 +469,10 @@
             "payout": 960
         },
         {
-            "venue": "浜名湖",
-            "race": 5,
-            "result": "3-1-5",
-            "payout": 5740
-        },
-        {
             "venue": "常滑",
             "race": 7,
             "result": "4-1-2",
             "payout": 8270
-        },
-        {
-            "venue": "三国",
-            "race": 11,
-            "result": "6-4-2",
-            "payout": 93690
         },
         {
             "venue": "児島",
@@ -499,22 +487,10 @@
             "payout": 2290
         },
         {
-            "venue": "戸田",
-            "race": 7,
-            "result": "1-4-3",
-            "payout": 1330
-        },
-        {
             "venue": "江戸川",
             "race": 6,
             "result": "2-3-1",
             "payout": 900
-        },
-        {
-            "venue": "平和島",
-            "race": 4,
-            "result": "1-5-4",
-            "payout": 960
         },
         {
             "venue": "多摩川",
@@ -523,10 +499,28 @@
             "payout": 30530
         },
         {
+            "venue": "浜名湖",
+            "race": 6,
+            "result": "1-2-5",
+            "payout": 4140
+        },
+        {
             "venue": "津",
             "race": 7,
             "result": "1-5-2",
             "payout": 940
+        },
+        {
+            "venue": "三国",
+            "race": 12,
+            "result": "2-5-1",
+            "payout": 10830
+        },
+        {
+            "venue": "びわこ",
+            "race": 7,
+            "result": "2-1-5",
+            "payout": 10350
         },
         {
             "venue": "鳴門",
@@ -535,16 +529,16 @@
             "payout": 13080
         },
         {
-            "venue": "児島",
-            "race": 4,
-            "result": "1-4-2",
-            "payout": 1510
-        },
-        {
             "venue": "福岡",
             "race": 4,
             "result": "3-2-1",
             "payout": 6700
+        },
+        {
+            "venue": "唐津",
+            "race": 12,
+            "result": "3-1-2",
+            "payout": 7240
         }
     ]
 }
