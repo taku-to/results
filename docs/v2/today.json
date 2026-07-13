@@ -17,6 +17,12 @@
             "race": 2,
             "result": "1-2-4",
             "payout": 2350
+        },
+        {
+            "venue": "鳴門",
+            "race": 2,
+            "result": "1-2-5",
+            "payout": 3040
         }
     ]
 }
