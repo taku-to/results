@@ -463,6 +463,12 @@
             "payout": 1000
         },
         {
+            "venue": "江戸川",
+            "race": 8,
+            "result": "2-1-4",
+            "payout": 7300
+        },
+        {
             "venue": "福岡",
             "race": 5,
             "result": "2-1-5",
