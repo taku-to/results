@@ -829,16 +829,22 @@
             "payout": 4600
         },
         {
-            "venue": "住之江",
-            "race": 7,
-            "result": "4-3-2",
-            "payout": 18890
-        },
-        {
             "venue": "福岡",
             "race": 12,
             "result": "2-4-1",
             "payout": 8730
+        },
+        {
+            "venue": "桐生",
+            "race": 7,
+            "result": "3-1-5",
+            "payout": 1100
+        },
+        {
+            "venue": "住之江",
+            "race": 7,
+            "result": "4-3-2",
+            "payout": 18890
         },
         {
             "venue": "大村",
