@@ -489,14 +489,20 @@
         {
             "venue": "尼崎",
             "race": 9,
-            "result": "1-2-3",
-            "payout": 990
+            "result": "3-1-2",
+            "payout": 2450
         },
         {
-            "venue": "宮島",
+            "venue": "江戸川",
             "race": 9,
-            "result": "1-6-3",
-            "payout": 6030
+            "result": "4-1-5",
+            "payout": 1860
+        },
+        {
+            "venue": "尼崎",
+            "race": 9,
+            "result": "1-2-3",
+            "payout": 990
         },
         {
             "venue": "福岡",
