@@ -131,6 +131,36 @@
             "race": 6,
             "result": "4-5-1",
             "payout": 6080
+        },
+        {
+            "venue": "戸田",
+            "race": 1,
+            "result": "1-4-6",
+            "payout": 3220
+        },
+        {
+            "venue": "常滑",
+            "race": 2,
+            "result": "1-5-2",
+            "payout": 620
+        },
+        {
+            "venue": "三国",
+            "race": 6,
+            "result": "1-2-5",
+            "payout": 1700
+        },
+        {
+            "venue": "尼崎",
+            "race": 2,
+            "result": "1-4-5",
+            "payout": 330
+        },
+        {
+            "venue": "徳山",
+            "race": 6,
+            "result": "1-6-4",
+            "payout": 5230
         }
     ]
 }
