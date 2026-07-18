@@ -303,8 +303,8 @@
         {
             "venue": "津",
             "race": 5,
-            "result": "2-1-4",
-            "payout": 1910
+            "result": "2-1-6",
+            "payout": 6070
         },
         {
             "venue": "尼崎",
@@ -313,10 +313,22 @@
             "payout": 2300
         },
         {
-            "venue": "児島",
-            "race": 3,
-            "result": "1-5-3",
-            "payout": 5300
+            "venue": "戸田",
+            "race": 5,
+            "result": "4-5-3",
+            "payout": 2970
+        },
+        {
+            "venue": "津",
+            "race": 5,
+            "result": "2-1-4",
+            "payout": 1910
+        },
+        {
+            "venue": "びわこ",
+            "race": 5,
+            "result": "1-2-3",
+            "payout": 410
         },
         {
             "venue": "宮島",
