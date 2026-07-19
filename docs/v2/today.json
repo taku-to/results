@@ -295,6 +295,36 @@
             "payout": 2010
         },
         {
+            "venue": "戸田",
+            "race": 4,
+            "result": "4-2-5",
+            "payout": 2340
+        },
+        {
+            "venue": "平和島",
+            "race": 2,
+            "result": "5-1-6",
+            "payout": 4700
+        },
+        {
+            "venue": "三国",
+            "race": 9,
+            "result": "3-1-5",
+            "payout": 2410
+        },
+        {
+            "venue": "びわこ",
+            "race": 4,
+            "result": "1-4-2",
+            "payout": 3190
+        },
+        {
+            "venue": "児島",
+            "race": 2,
+            "result": "5-2-1",
+            "payout": 18680
+        },
+        {
             "venue": "福岡",
             "race": 1,
             "result": "1-2-3",
