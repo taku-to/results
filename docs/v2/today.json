@@ -835,16 +835,10 @@
             "payout": 3110
         },
         {
-            "venue": "戸田",
-            "race": 12,
-            "result": "1-4-3",
-            "payout": 1980
-        },
-        {
-            "venue": "津",
-            "race": 12,
-            "result": "2-4-5",
-            "payout": 11640
+            "venue": "平和島",
+            "race": 10,
+            "result": "3-2-1",
+            "payout": 1540
         },
         {
             "venue": "住之江",
@@ -857,6 +851,12 @@
             "race": 10,
             "result": "3-1-6",
             "payout": 3110
+        },
+        {
+            "venue": "宮島",
+            "race": 12,
+            "result": "1-5-3",
+            "payout": 1940
         },
         {
             "venue": "下関",
