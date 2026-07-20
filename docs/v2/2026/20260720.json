@@ -505,34 +505,10 @@
             "payout": 1840
         },
         {
-            "venue": "戸田",
-            "race": 10,
-            "result": "2-3-6",
-            "payout": 3740
-        },
-        {
-            "venue": "津",
-            "race": 10,
-            "result": "5-1-4",
-            "payout": 1450
-        },
-        {
-            "venue": "びわこ",
-            "race": 10,
-            "result": "2-1-4",
-            "payout": 2750
-        },
-        {
             "venue": "住之江",
             "race": 1,
             "result": "1-6-2",
             "payout": 2020
-        },
-        {
-            "venue": "丸亀",
-            "race": 1,
-            "result": "1-6-2",
-            "payout": 2260
         },
         {
             "venue": "下関",
@@ -553,16 +529,16 @@
             "payout": 3570
         },
         {
-            "venue": "住之江",
-            "race": 1,
-            "result": "1-6-2",
-            "payout": 2020
+            "venue": "多摩川",
+            "race": 9,
+            "result": "3-2-1",
+            "payout": 1520
         },
         {
-            "venue": "下関",
-            "race": 1,
-            "result": "3-2-1",
-            "payout": 2080
+            "venue": "児島",
+            "race": 8,
+            "result": "1-5-3",
+            "payout": 4460
         }
     ]
 }
