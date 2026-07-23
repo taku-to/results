@@ -809,6 +809,12 @@
             "race": 8,
             "result": "3-4-6",
             "payout": 1520
+        },
+        {
+            "venue": "大村",
+            "race": 4,
+            "result": "4-3-2",
+            "payout": 4300
         }
     ]
 }
