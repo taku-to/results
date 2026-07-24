@@ -629,6 +629,48 @@
             "race": 8,
             "result": "1-6-5",
             "payout": 5150
+        },
+        {
+            "venue": "戸田",
+            "race": 11,
+            "result": "5-6-4",
+            "payout": 107490
+        },
+        {
+            "venue": "常滑",
+            "race": 1,
+            "result": "2-5-6",
+            "payout": 110690
+        },
+        {
+            "venue": "常滑",
+            "race": 7,
+            "result": "1-3-6",
+            "payout": 23130
+        },
+        {
+            "venue": "常滑",
+            "race": 8,
+            "result": "2-1-4",
+            "payout": 3100
+        },
+        {
+            "venue": "常滑",
+            "race": 11,
+            "result": "1-3-5",
+            "payout": 870
+        },
+        {
+            "venue": "住之江",
+            "race": 2,
+            "result": "1-3-2",
+            "payout": 1830
+        },
+        {
+            "venue": "尼崎",
+            "race": 11,
+            "result": "1-2-5",
+            "payout": 390
         }
     ]
 }
