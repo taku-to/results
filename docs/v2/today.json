@@ -755,6 +755,18 @@
             "race": 12,
             "result": "1-3-2",
             "payout": 1590
+        },
+        {
+            "venue": "桐生",
+            "race": 4,
+            "result": "3-1-6",
+            "payout": 1000
+        },
+        {
+            "venue": "浜名湖",
+            "race": 12,
+            "result": "4-1-6",
+            "payout": 22590
         }
     ]
 }
