@@ -1,6 +1,18 @@
 {
     "results": [
         {
+            "venue": "鳴門",
+            "race": 1,
+            "result": "1-2-5",
+            "payout": 960
+        },
+        {
+            "venue": "芦屋",
+            "race": 2,
+            "result": "1-2-4",
+            "payout": 380
+        },
+        {
             "venue": "唐津",
             "race": 1,
             "result": "1-5-2",
