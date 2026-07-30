@@ -95,6 +95,12 @@
             "race": 6,
             "result": "1-5-2",
             "payout": 4110
+        },
+        {
+            "venue": "徳山",
+            "race": 6,
+            "result": "1-4-6",
+            "payout": 840
         }
     ]
 }
