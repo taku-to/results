@@ -277,6 +277,30 @@
             "payout": 1940
         },
         {
+            "venue": "多摩川",
+            "race": 4,
+            "result": "3-2-4",
+            "payout": 7180
+        },
+        {
+            "venue": "浜名湖",
+            "race": 4,
+            "result": "1-2-4",
+            "payout": 840
+        },
+        {
+            "venue": "尼崎",
+            "race": 6,
+            "result": "1-4-2",
+            "payout": 1120
+        },
+        {
+            "venue": "児島",
+            "race": 3,
+            "result": "6-1-4",
+            "payout": 17850
+        },
+        {
             "venue": "唐津",
             "race": 10,
             "result": "2-3-6",
