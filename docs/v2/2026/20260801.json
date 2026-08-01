@@ -43,22 +43,28 @@
             "payout": 980
         },
         {
-            "venue": "三国",
-            "race": 3,
-            "result": "4-3-5",
-            "payout": 12030
-        },
-        {
             "venue": "唐津",
             "race": 3,
             "result": "1-5-6",
             "payout": 4510
         },
         {
+            "venue": "三国",
+            "race": 4,
+            "result": "1-5-6",
+            "payout": 1580
+        },
+        {
             "venue": "徳山",
             "race": 3,
             "result": "1-2-6",
             "payout": 570
+        },
+        {
+            "venue": "唐津",
+            "race": 4,
+            "result": "2-3-4",
+            "payout": 2760
         }
     ]
 }
