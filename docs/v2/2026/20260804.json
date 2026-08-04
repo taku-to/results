@@ -113,6 +113,18 @@
             "race": 2,
             "result": "2-3-1",
             "payout": 14790
+        },
+        {
+            "venue": "浜名湖",
+            "race": 1,
+            "result": "3-1-2",
+            "payout": 2020
+        },
+        {
+            "venue": "芦屋",
+            "race": 7,
+            "result": "1-4-6",
+            "payout": 1890
         }
     ]
 }
