@@ -593,6 +593,12 @@
             "race": 4,
             "result": "1-2-4",
             "payout": 570
+        },
+        {
+            "venue": "下関",
+            "race": 4,
+            "result": "4-3-1",
+            "payout": 7490
         }
     ]
 }
