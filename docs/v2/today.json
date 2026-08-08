@@ -217,16 +217,40 @@
             "payout": 33170
         },
         {
+            "venue": "徳山",
+            "race": 4,
+            "result": "1-5-2",
+            "payout": 3220
+        },
+        {
+            "venue": "平和島",
+            "race": 2,
+            "result": "2-3-1",
+            "payout": 4620
+        },
+        {
+            "venue": "津",
+            "race": 5,
+            "result": "1-3-6",
+            "payout": 870
+        },
+        {
+            "venue": "三国",
+            "race": 9,
+            "result": "1-4-2",
+            "payout": 440
+        },
+        {
             "venue": "児島",
             "race": 4,
             "result": "3-1-5",
             "payout": 3300
         },
         {
-            "venue": "徳山",
+            "venue": "宮島",
             "race": 4,
-            "result": "1-5-2",
-            "payout": 3220
+            "result": "1-2-3",
+            "payout": 600
         }
     ]
 }
