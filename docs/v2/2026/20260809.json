@@ -997,6 +997,12 @@
             "payout": 32100
         },
         {
+            "venue": "若松",
+            "race": 12,
+            "result": "1-2-3",
+            "payout": 3630
+        },
+        {
             "venue": "大村",
             "race": 12,
             "result": "1-2-6",
