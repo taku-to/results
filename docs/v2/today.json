@@ -45,14 +45,14 @@
         {
             "venue": "唐津",
             "race": 4,
-            "result": "1-2-6",
-            "payout": 470
-        },
-        {
-            "venue": "唐津",
-            "race": 4,
             "result": "4-5-2",
             "payout": 3950
+        },
+        {
+            "venue": "津",
+            "race": 1,
+            "result": "1-2-3",
+            "payout": 360
         },
         {
             "venue": "三国",
@@ -61,10 +61,16 @@
             "payout": 2250
         },
         {
-            "venue": "鳴門",
+            "venue": "尼崎",
+            "race": 1,
+            "result": "2-4-5",
+            "payout": 1330
+        },
+        {
+            "venue": "唐津",
             "race": 5,
-            "result": "1-5-3",
-            "payout": 620
+            "result": "3-6-1",
+            "payout": 19010
         }
     ]
 }
