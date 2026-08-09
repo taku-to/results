@@ -511,10 +511,10 @@
             "payout": 1180
         },
         {
-            "venue": "江戸川",
-            "race": 8,
-            "result": "2-5-6",
-            "payout": 48220
+            "venue": "多摩川",
+            "race": 7,
+            "result": "5-6-3",
+            "payout": 6770
         },
         {
             "venue": "津",
@@ -527,6 +527,12 @@
             "race": 9,
             "result": "1-5-3",
             "payout": 6520
+        },
+        {
+            "venue": "唐津",
+            "race": 11,
+            "result": "1-3-5",
+            "payout": 2150
         }
     ]
 }
