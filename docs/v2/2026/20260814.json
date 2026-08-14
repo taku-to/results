@@ -1022,15 +1022,21 @@
         },
         {
             "venue": "桐生",
-            "race": 9,
-            "result": "1-5-4",
-            "payout": 3860
+            "race": 10,
+            "result": "1-2-3",
+            "payout": 650
         },
         {
             "venue": "蒲郡",
             "race": 9,
             "result": "1-4-2",
             "payout": 820
+        },
+        {
+            "venue": "下関",
+            "race": 5,
+            "result": "1-2-3",
+            "payout": 440
         },
         {
             "venue": "大村",
