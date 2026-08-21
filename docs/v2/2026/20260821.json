@@ -59,6 +59,12 @@
             "race": 5,
             "result": "2-1-6",
             "payout": 2320
+        },
+        {
+            "venue": "尼崎",
+            "race": 1,
+            "result": "3-1-2",
+            "payout": 2150
         }
     ]
 }
