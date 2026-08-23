@@ -463,12 +463,6 @@
             "payout": 2020
         },
         {
-            "venue": "戸田",
-            "race": 8,
-            "result": "6-3-5",
-            "payout": 39350
-        },
-        {
             "venue": "江戸川",
             "race": 8,
             "result": "2-3-4",
@@ -499,10 +493,22 @@
             "payout": 3420
         },
         {
+            "venue": "浜名湖",
+            "race": 7,
+            "result": "3-4-2",
+            "payout": 8580
+        },
+        {
             "venue": "徳山",
             "race": 12,
             "result": "1-2-4",
             "payout": 680
+        },
+        {
+            "venue": "福岡",
+            "race": 6,
+            "result": "3-5-2",
+            "payout": 5460
         }
     ]
 }
