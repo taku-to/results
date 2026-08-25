@@ -163,6 +163,18 @@
             "payout": 2020
         },
         {
+            "venue": "津",
+            "race": 3,
+            "result": "3-1-2",
+            "payout": 6610
+        },
+        {
+            "venue": "尼崎",
+            "race": 3,
+            "result": "5-6-2",
+            "payout": 2920
+        },
+        {
             "venue": "徳山",
             "race": 7,
             "result": "1-2-3",
