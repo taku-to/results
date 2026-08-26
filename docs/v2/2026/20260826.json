@@ -947,6 +947,18 @@
             "race": 8,
             "result": "1-2-5",
             "payout": 590
+        },
+        {
+            "venue": "丸亀",
+            "race": 8,
+            "result": "1-2-5",
+            "payout": 910
+        },
+        {
+            "venue": "丸亀",
+            "race": 9,
+            "result": "2-1-6",
+            "payout": 5620
         }
     ]
 }
