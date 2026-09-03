@@ -889,12 +889,6 @@
             "payout": 1740
         },
         {
-            "venue": "住之江",
-            "race": 9,
-            "result": "2-6-1",
-            "payout": 4190
-        },
-        {
             "venue": "若松",
             "race": 9,
             "result": "1-2-5",
@@ -907,16 +901,22 @@
             "payout": 1680
         },
         {
+            "venue": "住之江",
+            "race": 10,
+            "result": "1-3-6",
+            "payout": 7880
+        },
+        {
             "venue": "下関",
             "race": 9,
             "result": "1-2-5",
             "payout": 1310
         },
         {
-            "venue": "若松",
-            "race": 9,
-            "result": "1-2-5",
-            "payout": 2010
+            "venue": "大村",
+            "race": 5,
+            "result": "3-2-1",
+            "payout": 3170
         }
     ]
 }
