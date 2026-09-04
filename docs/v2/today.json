@@ -595,6 +595,30 @@
             "payout": 15600
         },
         {
+            "venue": "戸田",
+            "race": 11,
+            "result": "2-1-5",
+            "payout": 2940
+        },
+        {
+            "venue": "浜名湖",
+            "race": 10,
+            "result": "1-4-2",
+            "payout": 1050
+        },
+        {
+            "venue": "蒲郡",
+            "race": 2,
+            "result": "5-4-6",
+            "payout": 11270
+        },
+        {
+            "venue": "津",
+            "race": 11,
+            "result": "3-2-4",
+            "payout": 39360
+        },
+        {
             "venue": "福岡",
             "race": 9,
             "result": "3-2-5",
