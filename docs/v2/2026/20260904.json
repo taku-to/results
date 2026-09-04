@@ -509,6 +509,24 @@
             "race": 7,
             "result": "2-4-5",
             "payout": 12980
+        },
+        {
+            "venue": "びわこ",
+            "race": 10,
+            "result": "1-5-4",
+            "payout": 1740
+        },
+        {
+            "venue": "住之江",
+            "race": 1,
+            "result": "4-3-2",
+            "payout": 4820
+        },
+        {
+            "venue": "宮島",
+            "race": 9,
+            "result": "2-4-5",
+            "payout": 21790
         }
     ]
 }
