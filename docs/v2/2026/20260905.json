@@ -851,6 +851,18 @@
             "race": 6,
             "result": "1-2-5",
             "payout": 2980
+        },
+        {
+            "venue": "蒲郡",
+            "race": 6,
+            "result": "2-3-4",
+            "payout": 10640
+        },
+        {
+            "venue": "若松",
+            "race": 6,
+            "result": "1-5-2",
+            "payout": 660
         }
     ]
 }
