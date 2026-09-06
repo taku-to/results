@@ -31,6 +31,12 @@
             "payout": 660
         },
         {
+            "venue": "三国",
+            "race": 4,
+            "result": "2-4-5",
+            "payout": 19910
+        },
+        {
             "venue": "鳴門",
             "race": 3,
             "result": "2-1-5",
