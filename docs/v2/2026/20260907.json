@@ -665,6 +665,24 @@
             "race": 12,
             "result": "1-5-6",
             "payout": 3170
+        },
+        {
+            "venue": "江戸川",
+            "race": 12,
+            "result": "1-4-6",
+            "payout": 3280
+        },
+        {
+            "venue": "平和島",
+            "race": 12,
+            "result": "1-4-6",
+            "payout": 2010
+        },
+        {
+            "venue": "津",
+            "race": 12,
+            "result": "1-6-3",
+            "payout": 3900
         }
     ]
 }
