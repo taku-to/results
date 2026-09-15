@@ -485,6 +485,24 @@
             "race": 10,
             "result": "4-1-2",
             "payout": 2600
+        },
+        {
+            "venue": "常滑",
+            "race": 10,
+            "result": "1-6-5",
+            "payout": 770
+        },
+        {
+            "venue": "津",
+            "race": 10,
+            "result": "2-1-4",
+            "payout": 5880
+        },
+        {
+            "venue": "福岡",
+            "race": 8,
+            "result": "1-2-3",
+            "payout": 470
         }
     ]
 }
