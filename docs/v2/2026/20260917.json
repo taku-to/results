@@ -349,16 +349,10 @@
             "payout": 650
         },
         {
-            "venue": "常滑",
+            "venue": "平和島",
             "race": 5,
-            "result": "1-2-6",
-            "payout": 490
-        },
-        {
-            "venue": "津",
-            "race": 5,
-            "result": "1-2-6",
-            "payout": 1280
+            "result": "3-1-4",
+            "payout": 5760
         },
         {
             "venue": "びわこ",
@@ -373,12 +367,6 @@
             "payout": 1140
         },
         {
-            "venue": "鳴門",
-            "race": 9,
-            "result": "3-1-6",
-            "payout": 1500
-        },
-        {
             "venue": "児島",
             "race": 5,
             "result": "4-2-3",
@@ -391,10 +379,10 @@
             "payout": 1240
         },
         {
-            "venue": "福岡",
-            "race": 3,
-            "result": "1-2-3",
-            "payout": 1440
+            "venue": "唐津",
+            "race": 10,
+            "result": "1-4-6",
+            "payout": 8670
         }
     ]
 }
