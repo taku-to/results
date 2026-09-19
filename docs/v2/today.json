@@ -917,6 +917,12 @@
             "race": 10,
             "result": "1-5-6",
             "payout": 2020
+        },
+        {
+            "venue": "大村",
+            "race": 11,
+            "result": "1-5-6",
+            "payout": 6140
         }
     ]
 }
