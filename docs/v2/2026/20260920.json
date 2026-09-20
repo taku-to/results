@@ -775,6 +775,12 @@
             "payout": 17660
         },
         {
+            "venue": "児島",
+            "race": 12,
+            "result": "2-4-3",
+            "payout": 22430
+        },
+        {
             "venue": "桐生",
             "race": 4,
             "result": "2-3-5",
@@ -793,10 +799,10 @@
             "payout": 28360
         },
         {
-            "venue": "児島",
-            "race": 12,
-            "result": "2-4-3",
-            "payout": 22430
+            "venue": "丸亀",
+            "race": 5,
+            "result": "6-1-5",
+            "payout": 9430
         }
     ]
 }
