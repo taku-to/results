@@ -417,6 +417,18 @@
         {
             "venue": "児島",
             "race": 9,
+            "result": "3-2-6",
+            "payout": 740
+        },
+        {
+            "venue": "尼崎",
+            "race": 10,
+            "result": "1-2-5",
+            "payout": 1010
+        },
+        {
+            "venue": "児島",
+            "race": 9,
             "result": "2-5-6",
             "payout": 88560
         }
