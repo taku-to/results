@@ -509,6 +509,24 @@
             "race": 1,
             "result": "2-5-4",
             "payout": 13340
+        },
+        {
+            "venue": "津",
+            "race": 10,
+            "result": "1-4-2",
+            "payout": 440
+        },
+        {
+            "venue": "びわこ",
+            "race": 10,
+            "result": "1-5-4",
+            "payout": 920
+        },
+        {
+            "venue": "宮島",
+            "race": 10,
+            "result": "5-3-2",
+            "payout": 63100
         }
     ]
 }
