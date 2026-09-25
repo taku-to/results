@@ -323,6 +323,18 @@
             "race": 3,
             "result": "1-3-6",
             "payout": 2660
+        },
+        {
+            "venue": "三国",
+            "race": 10,
+            "result": "1-2-3",
+            "payout": 520
+        },
+        {
+            "venue": "びわこ",
+            "race": 6,
+            "result": "2-1-5",
+            "payout": 1830
         }
     ]
 }
