@@ -5,6 +5,12 @@
             "race": 1,
             "result": "1-2-4",
             "payout": 970
+        },
+        {
+            "venue": "唐津",
+            "race": 1,
+            "result": "1-4-3",
+            "payout": 1140
         }
     ]
 }
