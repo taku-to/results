@@ -25,22 +25,28 @@
             "payout": 770
         },
         {
-            "venue": "鳴門",
-            "race": 2,
-            "result": "1-5-2",
-            "payout": 1960
-        },
-        {
             "venue": "唐津",
             "race": 2,
             "result": "2-1-4",
             "payout": 1270
         },
         {
+            "venue": "鳴門",
+            "race": 3,
+            "result": "1-2-3",
+            "payout": 890
+        },
+        {
             "venue": "徳山",
             "race": 2,
             "result": "1-5-2",
             "payout": 2580
+        },
+        {
+            "venue": "唐津",
+            "race": 3,
+            "result": "1-2-6",
+            "payout": 6170
         }
     ]
 }
