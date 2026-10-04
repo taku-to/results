@@ -813,6 +813,12 @@
         {
             "venue": "蒲郡",
             "race": 6,
+            "result": "1-5-3",
+            "payout": 950
+        },
+        {
+            "venue": "蒲郡",
+            "race": 6,
             "result": "1-6-2",
             "payout": 930
         },
