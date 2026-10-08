@@ -585,6 +585,36 @@
         {
             "venue": "三国",
             "race": 12,
+            "result": "1-2-5",
+            "payout": 800
+        },
+        {
+            "venue": "江戸川",
+            "race": 3,
+            "result": "4-5-1",
+            "payout": 3210
+        },
+        {
+            "venue": "江戸川",
+            "race": 10,
+            "result": "1-6-4",
+            "payout": 1190
+        },
+        {
+            "venue": "江戸川",
+            "race": 12,
+            "result": "1-5-2",
+            "payout": 2170
+        },
+        {
+            "venue": "多摩川",
+            "race": 12,
+            "result": "1-5-3",
+            "payout": 8150
+        },
+        {
+            "venue": "三国",
+            "race": 12,
             "result": "1-2-3",
             "payout": 710
         },
